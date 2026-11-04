@@ -62,12 +62,12 @@
     "id": "still-life-003",
     "category": "still-life",
     "image": "images/paintings/still-life/crystal-autumn.png",
-    "width": 2048,
-    "height": 1727,
+    "width": 1627,
+    "height": 2014,
     "title": {
       "en": "Crystal Autumn",
-      "fi": "Vanha lamppu",
-      "es": "Lámpara antigua"
+      "fi": "Kristallinen syksy",
+      "es": "Otoño de cristal"
     },
      "description": {
       "en": "",
@@ -178,8 +178,8 @@
     "id": "portraits-003",
     "category": ["portraits", "textured-painting"],
     "image": "images/paintings/portraits/memories-of-summer-2026.jpg",
-    "width": 703,
-    "height": 720,
+    "width": 3008,
+    "height": 3687,
     "title": {
       "en": "Memories of Summer 2026",
       "fi": "Kesän muistot",
@@ -207,8 +207,8 @@
     "id": "portraits-004",
     "category": "portraits",
     "image": "images/paintings/portraits/little-harvest.jpg",
-    "width": 702,
-    "height": 736,
+    "width": 2897,
+    "height": 3719,
     "title": {
       "en": "Little Harvest",
       "fi": "Pieni sato (Little Harvest)",
