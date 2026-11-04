@@ -1,0 +1,380 @@
+
+[
+  {
+    "id": "still-life-001",
+    "category": ["still-life", "textured-painting"],
+    "image": "images/paintings/still-life/old-lamp.jpg",
+    "width": 2048,
+    "height": 1727,
+    "title": {
+      "en": "Old lamp",
+      "fi": "Vanha lamppu",
+      "es": "Lámpara antigua"
+    },
+    "description": {
+      "en": "En Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "fi": "FI Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "es": "ES Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    "technique": {
+      "en": "Oil on canvas",
+      "fi": "Öljy kankaalle",
+      "es": "Óleo sobre lienzo"
+    },
+    "canvasSize": {
+      "width": 100,
+      "height": 200,
+      "unit": "cm"
+    },
+    "price": null,
+    "available": false
+  },
+  {
+    "id": "still-life-002",
+    "category": "still-life",
+    "image": "images/paintings/still-life/in-the-summer-garden.jpg",
+    "width": 1664,
+    "height": 2035,
+    "title": {
+      "en": "In the summer garden",
+      "fi": "Kesäpuutarhassa",
+      "es": "En el jardín de verano"
+    },
+    "description": {
+      "en": "",
+      "fi": "",
+      "es": ""
+    },
+    "technique": {
+      "en": "Oil on canvas",
+      "fi": "Öljy kankaalle",
+      "es": "Óleo sobre lienzo"
+    },
+    "canvasSize": {
+      "width": 200,
+      "height": 100,
+      "unit": "cm"
+    },
+    "price": null,
+    "available": true
+  },
+  {
+    "id": "still-life-003",
+    "category": "still-life",
+    "image": "images/paintings/still-life/crystal-autumn.png",
+    "width": 2048,
+    "height": 1727,
+    "title": {
+      "en": "Crystal Autumn",
+      "fi": "Vanha lamppu",
+      "es": "Lámpara antigua"
+    },
+     "description": {
+      "en": "",
+      "fi": "",
+      "es": ""
+    },
+    "technique": {
+      "en": "Oil on canvas",
+      "fi": "Öljy kankaalle",
+      "es": "Óleo sobre lienzo"
+    },
+    "canvasSize": {
+      "width": 50,
+      "height": 70,
+      "unit": "cm"
+    },
+    "price": null,
+    "available": false
+  },
+  {
+    "id": "textured-painting-001",
+    "category": "textured-painting",
+    "image": "images/paintings/textured-painting/the-wild-grape.jpg",
+    "width": 2666,
+    "height": 3738,
+    "title": {
+      "en": "In the summer garden",
+      "fi": "Villi viinirypäle",
+      "es": "La uva silvestre"
+    },
+    "description": {
+      "en": "Every painting has a story, but this one is woven from the warmest threads of my childhood memories. When I was a child, my grandmother had a beautiful garden filled with various trees and plants, and among them grew three grapevines. Over the years, they grew so grand and wild that they formed a thick, lush green roof over her entire small yard. Can you imagine the pure bliss of stepping into that green oasis in the middle of a scorching summer day? Hidden from the heat under the canopy of leaves and heavy clusters, we would sip tea and admire the ripening grapes. Recently, I stumbled upon a photo on Pinterest, and this beautiful wave of nostalgia completely washed over me. Instantly, an artistic idea sparked in my mind: what if I created the background using a heavy texture paste? That way, the wall wouldn't just look real—it would actually feel like a real, sun-drenched stone wall when you touch it. Painting the glossy, vibrant grapes over this rough surface was a true battle with the texture, but it was worth every stroke. This artwork is a piece of my heart, a little sanctuary of shade and sweet memories.",
+      "fi": "Jokaisella maalauksella on tarina, ja tämä teos on kudottu lapsuuteni lämpimimmistä muistoista. Lapsuudessani isoäitini pientä pihaa koristi kolme suurta viiniköynnöstä, jotka muodostivat vehreän, suojaavan katon keskellä polttavaa kesää. Tuon vihreän keitaan tuntu ja muistot kypsyvistä rypäleistä inspiroivat minua luomaan tämän teoksen. Halusin herättää muiston eloon myös kosketuksen kautta, joten rakensin taustan paksulla struktuuripastalla. Sen ansiosta pohja tuntuu aidolta, auringon lämmittämältä kiviseinältä. Kiiltävien ja eläväisten rypäleiden maalaaminen karhean pinnan päälle oli haastava tekstuurityö, joka teki lopputuloksesta jokaisen siveltimenvedon arvoisen. Tämä maalaus on palanen sydäntäni – varjoisa turvapaikka täynnä suloisia muistoja.",
+      "es": "Cada cuadro tiene una historia, y esta obra está tejida con los hilos más cálidos de mis recuerdos de la infancia. De niña, el pequeño patio de mi abuela estaba cubierto por tres grandes vides que formaban un techo verde y frondoso, un verdadero oasis en los días calurosos de verano. La nostalgia de aquellos momentos bajo la sombra y el recuerdo de las uvas madurando inspiraron esta creación. Para lograr que la obra se sintiera real no solo a la vista sino también al tacto, creé el fondo con una pasta de textura densa que emula una auténtica pared de piedra bañada por el sol. Pintar las uvas brillantes y llenas de vida sobre esta superficie rugosa fue un gran desafío técnico, pero valió la pena cada pincelada. Esta pieza es un pedazo de mi corazón: un pequeño refugio de sombra y dulces recuerdos."
+    },
+    "technique": {
+      "en": " Original oil & texture on canvas",
+      "fi": "Alkuperäinen öljy- ja struktuurimaalaus kankaalle",
+      "es": "Óleo original y textura sobre lienzo"
+    },
+    "canvasSize": {
+      "width": 50,
+      "height": 70,
+      "unit": "cm"
+    },
+    "price": null,
+    "available": true
+  },
+  {
+    "id": "portraits-001",
+    "category": "portraits",
+    "image": "images/paintings/portraits/mango-girl.jpg",
+    "width": 703,
+    "height": 720,
+    "title": {
+      "en": "Mango-girl",
+      "fi": "Mangotyttö",
+      "es": "Chica-mango"
+    },
+    "description": {
+      "en": "",
+      "fi": "",
+      "es": ""
+    },
+    "technique": {
+      "en": "Oil on canvas",
+      "fi": "Öljy kankaalle",
+      "es": "Óleo sobre lienzo"
+    },
+    "canvasSize": {
+      "width": 200,
+      "height": 100,
+      "unit": "cm"
+    },
+    "price": null,
+    "available": true
+  },
+  {
+    "id": "portraits-002",
+    "category": "portraits",
+    "image": "images/paintings/portraits/cheerful-granny.jpg",
+    "width": 702,
+    "height": 736,
+    "title": {
+      "en": "Cheerful Granny",
+      "fi": "Iloinen mummo",
+      "es": "Abuela alegre"
+    },
+    "description": {
+      "en": "",
+      "fi": "",
+      "es": ""
+    },
+    "technique": {
+      "en": "Oil on canvas",
+      "fi": "Öljy kankaalle",
+      "es": "Óleo sobre lienzo"
+    },
+    "canvasSize": {
+      "width": 200,
+      "height": 100,
+      "unit": "cm"
+    },
+    "price": null,
+    "available": true
+  },
+  {
+    "id": "portraits-003",
+    "category": ["portraits", "textured-painting"],
+    "image": "images/paintings/portraits/memories-of-summer-2026.jpg",
+    "width": 703,
+    "height": 720,
+    "title": {
+      "en": "Memories of Summer 2026",
+      "fi": "Kesän muistot",
+      "es": "Recuerdos de verano "
+    },
+    "description": {
+      "en": "You can hide from the world behind a wall of convincing excuses, but it is impossible to deceive your own conscience. Minor compromises with the truth, unnoticed in one’s youth, can become a heavy burden in old age. For at the sunset of our days, left alone with our thoughts, we inevitably confront who we truly were. This painting is dedicated to silence, reconciliation, and inner purity.",
+      "fi": "Maailmalta voi pioutoutua vakuuttavien selitysten muurin taakse, mutta omaa omaatuntoaan on mahdotonta pettää. Pienet kompromissit totuuden kanssa, jotka nuoruudessa jäävät huomaamatta, voivat vanhuudessa muuttua raskaaksi taakaksi. Elämän ehtoopuolella, jäädessämme yksin ajatustemme kanssa, kohtaamme väistämättä sen, keitä todella olimme. Tämä maalaus on omistettu hiljaisuudelle, sovinnolle ja sisäiselle puhtaudelle.",
+      "es": "Uno puede esconderse del mundo tras un muro de excusas convincentes, pero es imposible engañar a la propia conciencia. Los pequeños compromisos con la verdad, imperceptibles en la juventud, pueden convertirse en una pesada carga en la vejez. Al final de nuestros días, a solas con nuestros pensamientos, nos enfrentamos inevitablemente a lo que fuimos en realidad. Esta pintura está dedicada al silencio, la reconciliación y la pureza interior."
+    },
+    "technique": {
+      "en": "Oil and texture paste on hardboard (masonite)",
+      "fi": " Öljy ja tekstuuripasta kovalevylle",
+      "es": "Óleo y pasta de textura sobre tablex (hardboard)"
+    },
+    "canvasSize": {
+      "width": 46,
+      "height": 55,
+      "unit": "cm"
+    },
+    "price": null,
+    "available": true
+  },
+    {
+    "id": "portraits-004",
+    "category": "portraits",
+    "image": "images/paintings/portraits/little-harvest.jpg",
+    "width": 702,
+    "height": 736,
+    "title": {
+      "en": "Little Harvest",
+      "fi": "Pieni sato (Little Harvest)",
+      "es": "Pequeña cosecha (Little Harvest)"
+    },
+    "description": {
+      "en": "I have always been deeply drawn to painting the faces of children and the elderly. There is an unmatched, pure honesty and innocence in them. They don't play roles or wear masks—children haven't learned how to yet, and the elderly no longer need to. In this absolute authenticity, there is always a profound beauty. I tried to fill this painting with warmth, light, and pure joy. For me, it has become the embodiment of bright, life-affirming meaning and inner harmony. The initial spark of inspiration came from a casual photograph, but the palette was completely transformed to convey the mood of the moment.",
+      "fi": "Lasten ja vanhusten kasvojen maalaaminen on aina inspiroinut minua syvästi. Heissä piilee aito, puhdas rehellisyys ja viattomuus. He eivät esitä rooleja tai käytä naamioita — lapset eivät ole vielä oppineet sitä, eikä vanhusten enää tarvitse. Tässä ehdottomassa aitoudessa elää aina todellinen kauneus. Yritin täyttää tämän maalauksen lämmöllä, valolla ja puhtaalla ilolla. Minulle siitä tuli valoisien, elämää kunnioittavien merkitysten ja sisäisen harmonian ruumiillistuma. Inspiraation kipinä syntyi satunnaisesta valokuvasta, mutta väripaletti muutettiin täysin välittämään hetken tunnelmaa.",
+      "es": "Siempre me ha inspirado profundamente pintar los rostros de los niños y de los ancianos. En ellos reside una sinceridad pura y genuina. No actúan ni usan máscaras: los niños aún no han aprendido a hacerlo y los mayores ya no lo necesitan. En esa autenticidad absoluta siempre vive la verdadera belleza. Intenté llenar esta pintura de calidez, luz y pura alegría. Para mí, se ha convertido en la personificación de significados brillantes y llenos de vida, así como de armonía interior. La chispa inicial de inspiración nació de una fotografía casual, pero la paleta se transformó por completo para transmitir la atmósfera del momento."
+    },
+    "technique": {
+      "en": "Oil on canvas",
+      "fi": "Öljy kankaalle",
+      "es": "Óleo sobre lienzo"
+    },
+    "canvasSize": {
+      "width": 40,
+      "height": 50,
+      "unit": "cm"
+    },
+    "price": null,
+    "available": true
+  },
+  {
+    "id": "still-life-008",
+    "category": "still-life",
+    "image": "images/paintings/still-life/in-the-summer-garden.jpg",
+    "width": 1664,
+    "height": 2035,
+    "title": {
+      "en": "In the summer garden",
+      "fi": "Kesäpuutarhassa",
+      "es": "En el jardín de verano"
+    },
+    "description": {
+      "en": "",
+      "fi": "",
+      "es": ""
+    },
+    "technique": {
+      "en": "Oil on canvas",
+      "fi": "Öljy kankaalle",
+      "es": "Óleo sobre lienzo"
+    },
+    "canvasSize": {
+      "width": 200,
+      "height": 100,
+      "unit": "cm"
+    },
+    "price": null,
+    "available": true
+  },
+  {
+    "id": "still-life-004",
+    "category": "still-life",
+    "image": "images/paintings/still-life/in-the-summer-garden.jpg",
+    "width": 1664,
+    "height": 2035,
+    "title": {
+      "en": "In the summer garden",
+      "fi": "Kesäpuutarhassa",
+      "es": "En el jardín de verano"
+    },
+    "description": {
+      "en": "",
+      "fi": "",
+      "es": ""
+    },
+    "technique": {
+      "en": "Oil on canvas",
+      "fi": "Öljy kankaalle",
+      "es": "Óleo sobre lienzo"
+    },
+    "canvasSize": {
+      "width": 200,
+      "height": 100,
+      "unit": "cm"
+    },
+    "price": null,
+    "available": true
+  },
+  {
+    "id": "still-life-005",
+    "category": "still-life",
+    "image": "images/paintings/still-life/in-the-summer-garden.jpg",
+    "width": 1664,
+    "height": 2035,
+    "title": {
+      "en": "In the summer garden",
+      "fi": "Kesäpuutarhassa",
+      "es": "En el jardín de verano"
+    },
+    "description": {
+      "en": "",
+      "fi": "",
+      "es": ""
+    },
+    "technique": {
+      "en": "Oil on canvas",
+      "fi": "Öljy kankaalle",
+      "es": "Óleo sobre lienzo"
+    },
+    "canvasSize": {
+      "width": 200,
+      "height": 100,
+      "unit": "cm"
+    },
+    "price": null,
+    "available": true
+  },
+  {
+    "id": "still-life-006",
+    "category": "still-life",
+    "image": "images/paintings/still-life/in-the-summer-garden.jpg",
+    "width": 1664,
+    "height": 2035,
+    "title": {
+      "en": "In the summer garden",
+      "fi": "Kesäpuutarhassa",
+      "es": "En el jardín de verano"
+    },
+    "description": {
+      "en": "",
+      "fi": "",
+      "es": ""
+    },
+    "technique": {
+      "en": "Oil on canvas",
+      "fi": "Öljy kankaalle",
+      "es": "Óleo sobre lienzo"
+    },
+    "canvasSize": {
+      "width": 200,
+      "height": 100,
+      "unit": "cm"
+    },
+    "price": null,
+    "available": true
+  },
+  {
+    "id": "still-life-007",
+    "category": "still-life",
+    "image": "images/paintings/still-life/in-the-summer-garden.jpg",
+    "width": 1664,
+    "height": 2035,
+    "title": {
+      "en": "In the summer garden",
+      "fi": "Kesäpuutarhassa",
+      "es": "En el jardín de verano"
+    },
+    "description": {
+      "en": "",
+      "fi": "",
+      "es": ""
+    },
+    "technique": {
+      "en": "Oil on canvas",
+      "fi": "Öljy kankaalle",
+      "es": "Óleo sobre lienzo"
+    },
+    "canvasSize": {
+      "width": 200,
+      "height": 100,
+      "unit": "cm"
+    },
+    "price": null,
+    "available": true
+  }
+]

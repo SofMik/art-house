@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="description" content="Discover original artwork and details about each painting.">
+
+  <title>Painting — Elena Art House</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="js/translations.js" defer></script>
+  <script src="js/paintings.js" defer></script>
+  <script src="js/painting-page.js" defer></script>
+</head>
+
+<body>
+
+  <main class="painting-page">
+    <div class="painting-page-header">
+      <a class="text-link painting-page-back" id="painting-back" href="index.html" data-i18n="gallery.back">
+        Back to the collection
+      </a>
+    </div>
+
+    <p id="painting-status" class="painting-page-status" role="status" aria-live="polite">
+      Loading painting...
+    </p>
+
+    <article id="painting-detail" class="painting-detail" hidden>
+      <div class="painting-page-image">
+        <img id="painting-image" src="" alt="">
+      </div>
+
+      <div class="painting-page-info">
+        <h1 id="painting-title" class="painting-page-title"></h1>
+
+        <div class="painting-page-meta">
+          <p id="painting-technique" hidden></p>
+          <p id="painting-size" hidden></p>
+        </div>
+
+        <div id="painting-description" class="painting-page-description" hidden></div>
+
+        <div class="painting-page-availability">
+          <span id="painting-availability-indicator" class="painting-availability-indicator" aria-hidden="true"></span>
+          <p id="painting-availability"></p>
+        </div>
+
+        <p id="painting-price" class="painting-page-price" hidden></p>
+
+        <a id="painting-enquire" class="button button-dark painting-page-enquire" href="mailto:artbylef@gmail.com" hidden>
+          Enquire about this painting
+        </a>
+      </div>
+    </article>
+
+    <div id="painting-modal" class="painting-modal" role="dialog" aria-modal="true"
+      aria-label="Full-screen painting view" aria-hidden="true" hidden>
+      <button id="painting-modal-close" class="painting-modal-close" type="button" aria-label="Close image">
+        <span aria-hidden="true">&times;</span>
+      </button>
+
+      <img id="painting-modal-image" class="painting-modal-image" src="" alt="">
+    </div>
+
+  </main>
+
+
+</body>
+
+</html>

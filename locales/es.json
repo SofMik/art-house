@@ -1,0 +1,85 @@
+
+{
+  "meta": {
+    "title": "Elena ArtHouse — Pinturas originales",
+    "description": "Descubre las pinturas originales de Elena. Paisajes, retratos, bodegones y pintura texturizada."
+  },
+  "nav": {
+    "home": "Inicio",
+    "gallery": "Galería",
+    "about": "Sobre mí",
+    "contact": "Contacto",
+    "openMenu": "Abrir navegación",
+    "closeMenu": "Cerrar navegación"
+  },
+  "hero": {
+    "eyebrow": "OBRAS ORIGINALES · CREADAS CON ALMA",
+    "title": "Arte que habla al alma.",
+    "description": "Descubre pinturas originales inspiradas en la naturaleza, las emociones y la belleza de la vida cotidiana.",
+    "button": "Explorar la colección",
+    "note": "Pinturas originales · Obras únicas",
+    "imageCaption": "Un pequeño mundo de color",
+    "imageAlt": "Pintura original destacada de Elena"
+  },
+  "gallery": {
+    "eyebrow": "DESCUBRE LA COLECCIÓN",
+    "title": "El arte en diferentes formas",
+    "description": "Explora cuatro colecciones, cada una con su propia personalidad e historia.",
+    "explore": "Explorar colección →",
+    "all": "Todas las obras",
+    "empty": "Todavía no hay pinturas en esta colección.",
+    "back": "Volver a la colección"
+  },
+  "categories": {
+    "landscapes": "Paisajes",
+    "portraits": "Retratos",
+    "stillLife": "Bodegones",
+    "textured": "Pintura texturizada"
+  },
+  "about": {
+    "eyebrow": "LA ARTISTA DETRÁS DEL LIENZO",
+    "title": "Cada pintura comienza con una emoción.",
+    "text": "Soy Elena, una artista inspirada por los colores de la naturaleza, las emociones de la vida cotidiana y la belleza de los momentos imperfectos.",
+    "textExtra": "A través de diferentes estilos y texturas, creo obras originales que aportan calidez, carácter e individualidad a cada espacio.",
+    "link": "Descubre mi arte →",
+    "imageAlt": "Elena, la artista"
+  },
+  "contact": {
+    "eyebrow": "SIGAMOS EN CONTACTO",
+    "title": "Quizás una de estas pinturas esté hecha para ti.",
+    "description": "¿Te interesa una obra original? Escríbeme para consultar su disponibilidad, obtener más información o preguntar cómo comprarla.",
+    "button": "Escríbeme un correo",
+    "stayConnected": "SIGAMOS EN CONTACTO",
+    "followMe": "Sígueme"
+  },
+  "footer": {
+    "tagline": "Arte original creado con alma.",
+    "rights": "Todas las obras de arte, fotografías y materiales visuales están protegidos por derechos de autor. Queda prohibida su reproducción, distribución o utilización con fines comerciales sin autorización previa por escrito.",
+    "author": "Web creada por SofMik"
+  },
+  
+"artwork": {
+  "title": "Detalles de la obra",
+  "close": "Cerrar los detalles de la obra",
+  "artist": "Artista",
+  "year": "Año",
+  "price": "Precio",
+  "available": "Disponible para la venta",
+  "unavailable": "Vendida o no disponible",
+  "sold": "Vendida",
+  "description": "Sobre esta obra",
+  "like": "Añadir a favoritos",
+  "unlike": "Eliminar de favoritos",
+  "buy": "Consultar la compra de esta obra",
+  "contact": "Consultar sobre esta pintura",
+  "currency": "EUR",
+  "canvasSize": "Tamaño del lienzo",
+  "emailSubject": "Consulta sobre una pintura",
+  "emailBody": "Hola,\n\nEstoy interesado/a en la siguiente pintura:\n\nTítulo de la obra: {title}\nIdentificador de la obra: {id}\n\n¿Podría facilitarme más información sobre esta obra?\n\nUn cordial saludo"
+},
+  "errors": {
+    "translations": "No se pudieron cargar las traducciones.",
+    "paintings": "No se pudieron cargar las pinturas. Inténtalo de nuevo más tarde."
+  }
+}
+

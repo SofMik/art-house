@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="description"
+    content="Discover original paintings by Elena. Explore landscapes, portraits, still life and textured painting.">
+  <meta name="theme-color" content="#f8f6f1">
+
+  <title>Elena Art House — Original Paintings</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="js/translations.js" defer></script>
+  <script src="js/paintings.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="header-inner">
+
+      <a class="brand" href="index.html" aria-label="Elena ArtHouse home">
+        <span class="logo-mark" aria-hidden="true"></span>
+        <span class="brand-name">Elena <span>Art House</span></span>
+      </a>
+
+      <nav class="language-switcher" aria-label="Choose language">
+        <button type="button" data-lang="en" aria-pressed="true">EN</button>
+        <button type="button" data-lang="fi" aria-pressed="false">FI</button>
+        <button type="button" data-lang="es" aria-pressed="false">ES</button>
+      </nav>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav"
+        aria-label="Open navigation" data-i18n-aria-label="nav.openMenu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+        <a href="#home" data-i18n="nav.home">Home</a>
+        <a href="#gallery" data-i18n="nav.gallery">Gallery</a>
+        <a href="#about" data-i18n="nav.about">About</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
+      </nav>
+
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+
+      <div class="hero-content">
+        <p class="eyebrow" data-i18n="hero.eyebrow">
+          ORIGINAL ARTWORKS · MADE WITH SOUL
+        </p>
+
+        <h1 data-i18n="hero.title">
+          Art that speaks to the soul.
+        </h1>
+
+        <p class="hero-description" data-i18n="hero.description">
+          Discover original paintings inspired by nature,
+          emotions and the beauty of everyday life.
+        </p>
+
+        <a class="button button-dark" href="#gallery" data-i18n="hero.button">
+          Explore collection
+        </a>
+
+        <p class="hero-note" data-i18n="hero.note">
+          Original paintings · Unique pieces
+        </p>
+      </div>
+
+      <div class="hero-art">
+        <img src="images/paintings/textured-painting/the-wild-grape.jpg" alt="Featured original painting by Elena"
+          data-i18n-alt="hero.imageAlt" fetchpriority="high">
+
+        <p class="hero-art-caption" data-i18n="hero.imageCaption">
+          A little world of colour
+        </p>
+      </div>
+
+    </section>
+
+    <!-- 3 ART COLLECTIONS -->
+    <section class="gallery-preview section" id="gallery">
+
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="gallery.eyebrow">
+          DISCOVER THE COLLECTION
+        </p>
+
+        <h2 data-i18n="gallery.title">
+          Art in different forms
+        </h2>
+
+        <p data-i18n="gallery.description">
+          Explore four collections, each with its own character and story.
+        </p>
+      </div>
+
+      <div class="category-grid">
+
+        <!-- PORTRAITS -->
+        <article class="category-card">
+
+<div class="category-info">
+            <h3>
+              <a href="galleries/portraits.html" data-i18n="categories.portraits">
+                Portraits
+              </a>
+            </h3>
+          </div>
+
+          <a class="category-image" href="galleries/portraits.html" aria-label="Explore portraits"
+            data-i18n-aria-label="categories.portraits">
+            <img src="images/paintings/portraits/little-harvest.jpg" alt="Original portrait painting" loading="lazy">
+          </a>
+
+          <div class="category-info">
+          
+            <a class="text-link" href="galleries/portraits.html" data-i18n="gallery.explore">
+              Explore collection →
+            </a>
+          </div>
+        </article>
+
+        <!-- STILL LIFE -->
+        <article class="category-card">
+   <div class="category-info">
+            <h3>
+              <a href="galleries/still-life.html" data-i18n="categories.stillLife">
+                Still Life
+              </a>
+            </h3>
+          </div>
+          <a class="category-image" href="galleries/still-life.html" aria-label="Explore still life paintings"
+            data-i18n-aria-label="categories.stillLife">
+            <img id="featured-still-life" src="images/paintings/still-life/old-lamp.jpg" alt="Old lamp"
+              loading="lazy">
+          </a>
+
+          <div class="category-info">
+            <a class="text-link" href="galleries/still-life.html" data-i18n="gallery.explore">
+              Explore collection →
+            </a>
+          </div>
+        </article>
+
+        <!-- TEXTURED PAINTING -->
+        <article class="category-card">
+ <div class="category-info">
+            <h3>
+              <a href="galleries/textured-painting.html" data-i18n="categories.textured">
+                Textured Painting
+              </a>
+            </h3>
+          </div>
+          <a class="category-image" href="galleries/textured-painting.html" aria-label="Explore textured paintings"
+            data-i18n-aria-label="categories.textured">
+            <img src="images/paintings/portraits/memories-of-summer-2026.jpg" alt="Original textured painting" loading="lazy">
+          </a>
+          <div class="category-info">
+            <a class="text-link" href="galleries/textured-painting.html" data-i18n="gallery.explore">
+              Explore collection →
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ABOUT THE ARTIST -->
+    <section class="about section" id="about">
+
+      <div class="about-image">
+        <img src="images/artist/portrait.jpg" alt="Elena, the artist" data-i18n-alt="about.imageAlt" loading="lazy">
+      </div>
+
+      <div class="about-content">
+        <p class="eyebrow" data-i18n="about.eyebrow">
+          THE ARTIST BEHIND THE CANVAS
+        </p>
+
+        <h2 data-i18n="about.title">
+          Every painting begins with a feeling.
+        </h2>
+
+        <p data-i18n="about.text">
+          I am Elena, an artist inspired by the colours of nature,
+          the emotions of everyday life and the beauty of imperfect moments.
+        </p>
+
+        <p data-i18n="about.textExtra">
+          Through different styles and textures, I create original works
+          that bring warmth, character and individuality into a space.
+        </p>
+
+        <a class="text-link" href="#contact" data-i18n="about.link">
+          Get to know my art →
+        </a>
+      </div>
+
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact section" id="contact">
+
+      <p class="eyebrow" data-i18n="contact.eyebrow">
+        LET'S CONNECT
+      </p>
+
+      <h2 data-i18n="contact.title">
+        Perhaps one of these paintings belongs with you.
+      </h2>
+
+      <p data-i18n="contact.description">
+        Interested in an original artwork? Get in touch to ask about
+        availability, details or purchasing.
+      </p>
+
+      <a class="button button-dark" href="mailto:artbylef@gmail.com" data-i18n="contact.button">
+        Write me an email
+      </a>
+
+<section class="social-section" aria-labelledby="social-title">
+  <p class="social-eyebrow" data-i18n="contact.stayConnected">STAY CONNECTED</p>
+
+  <h2 class="social-title" data-i18n="contact.followMe" id="social-title">
+    Follow me
+  </h2>
+
+  <div class="social-links">
+    <a
+      href="https://www.instagram.com/art_by_lef?fbclid=IwY2xjawVXrdhleHRuA2FlbQIxMABwZG9mBXNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR_-SCeCPlDIro7vde4-0EBYmyTARSOlah-nk4IaPG8cA2cht60lpHwkbXwfgQ_aem_G_YoOSEZ8aQNBA0OyCyfJg"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Visit ElenaArt House on Instagram"
+    >
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <rect x="3" y="3" width="18" height="18" rx="5" />
+        <circle cx="12" cy="12" r="4" />
+        <circle
+          class="social-icon-dot"
+          cx="17.5"
+          cy="6.5"
+          r="1"
+        />
+      </svg>
+    </a>
+
+    <a
+      href="https://www.facebook.com/elena.farm.31"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Visit ElenaArt House on Facebook"
+    >
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path
+          class="facebook-icon"
+          d="M13.5 21v-8h2.7l.4-3.1h-3.1v-2
+             c0-.9.3-1.5 1.6-1.5h1.7V3.6
+             c-.3 0-1.3-.1-2.4-.1
+             -2.4 0-4 1.5-4 4.2v2.2H7.7V13
+             h2.7v8z"
+        />
+      </svg>
+    </a>
+  </div>
+</section>
+
+ 
+
+    </section>
+
+  </main>
+
+  
+<!-- FOOTER: THREE ROWS -->
+<footer class="site-footer">
+  <div class="footer-inner">
+
+    <!-- ROW 1: BRAND -->
+    <div class="footer-row footer-row-brand">
+      <a class="brand" href="index.html" aria-label="Elena Art House home">
+        <span class="logo-mark" aria-hidden="true"></span>
+        <span class="brand-name">Elena <span>Art House</span></span>
+      </a>
+
+      <p data-i18n="footer.tagline">
+        Original art, created with soul.
+      </p>
+    </div>
+
+    <!-- ROW 2: NAVIGATION -->
+    <nav class="footer-row footer-nav" aria-label="Footer navigation">
+      <a href="#home" data-i18n="nav.home">Home</a>
+      <a href="#gallery" data-i18n="nav.gallery">Gallery</a>
+      <a href="#about" data-i18n="nav.about">About</a>
+      <a href="#contact" data-i18n="nav.contact">Contact</a>
+    </nav>
+
+    <!-- ROW 3: COPYRIGHT AND WEBSITE AUTHOR -->
+    <div class="footer-row footer-bottom">
+      <p>
+        © <span id="current-year">2026</span> Elena Art House
+      </p>
+   <p data-i18n="footer.rights">
+        All artworks, photographs and visual materials are protected by copyright. Reproduction, distribution or commercial use without prior written permission is prohibited.
+      </p>
+      <a
+        class="footer-author"
+        href="mailto:mailconnect.service@gmail.com?subject=Website%20enquiry"
+        aria-label="Email SofMik"
+        data-i18n="footer.author"
+      >
+        Website by <span>SofMik</span>
+      </a>
+    </div>
+
+  </div>
+</footer>
+
+
+  <!-- ARTWORK DETAILS DIALOG -->
+  <dialog class="painting-dialog" id="painting-dialog" aria-label="Artwork details"
+    data-i18n-aria-label="artwork.title">
+    <button class="dialog-close" type="button" aria-label="Close artwork details" data-i18n-aria-label="artwork.close">
+      &times;
+    </button>
+
+    <div id="dialog-content"></div>
+  </dialog>
+
+</body>
+
+</html>

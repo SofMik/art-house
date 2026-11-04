@@ -1,0 +1,84 @@
+
+{
+  "meta": {
+    "title": "Elena ArtHouse — Alkuperäisiä maalauksia",
+    "description": "Tutustu Elenan alkuperäisiin maalauksiin. Maisemia, muotokuvia, asetelmia ja tekstuurimaalausta."
+  },
+  "nav": {
+    "home": "Etusivu",
+    "gallery": "Galleria",
+    "about": "Taiteilija",
+    "contact": "Yhteystiedot",
+    "openMenu": "Avaa valikko",
+    "closeMenu": "Sulje valikko"
+  },
+  "hero": {
+    "eyebrow": "ALKUPERÄISIÄ TEOKSIA · SYDÄMELLÄ LUOTUJA",
+    "title": "Taide puhuttelee sielua.",
+    "description": "Tutustu alkuperäisiin maalauksiin, jotka saavat inspiraationsa luonnosta, tunteista ja arjen kauneudesta.",
+    "button": "Tutustu kokoelmaan",
+    "note": "Alkuperäisiä maalauksia · Ainutlaatuisia teoksia",
+    "imageCaption": "Pieni värien maailma",
+    "imageAlt": "Elenan esillä oleva alkuperäinen maalaus"
+  },
+  "gallery": {
+    "eyebrow": "TUTUSTU KOKOELMAAN",
+    "title": "Taiteen monet muodot",
+    "description": "Tutustu neljään kokoelmaan, joista jokaisella on oma luonteensa ja tarinansa.",
+    "explore": "Tutustu kokoelmaan →",
+    "all": "Kaikki teokset",
+    "empty": "Tässä kokoelmassa ei ole vielä maalauksia.",
+    "back": "Takaisin kokoelmaan"
+  },
+  "categories": {
+    "landscapes": "Maisemat",
+    "portraits": "Muotokuvat",
+    "stillLife": "Asetelmat",
+    "textured": "Tekstuurimaalaus"
+  },
+  "about": {
+    "eyebrow": "TAITEILIJA TEOSTEN TAKANA",
+    "title": "Jokainen maalaus alkaa tunteesta.",
+    "text": "Olen Elena, taiteilija, joka saa inspiraatiota luonnon väreistä, arjen tunteista ja epätäydellisten hetkien kauneudesta.",
+    "textExtra": "Eri tyylien ja tekstuurien avulla luon alkuperäisiä teoksia, jotka tuovat tilaan lämpöä, luonnetta ja yksilöllisyyttä.",
+    "link": "Tutustu taiteeseeni →",
+    "imageAlt": "Elena, taiteilija"
+  },
+  "contact": {
+    "eyebrow": "OTA YHTEYTTÄ",
+    "title": "Ehkä jokin näistä maalauksista kuuluu juuri sinulle.",
+    "description": "Kiinnostuitko alkuperäisestä taideteoksesta? Ota yhteyttä ja kysy saatavuudesta, lisätiedoista tai ostamisesta.",
+    "button": "Lähetä sähköposti",
+    "stayConnected": "PYSY MUKANA",
+    "followMe": "Seuraa"
+  },
+  "footer": {
+    "tagline": "Sydämellä luotua alkuperäistä taidetta.",
+    "rights": "Kaikki taideteokset, valokuvat ja visuaaliset materiaalit ovat tekijänoikeudella suojattuja. Niiden jäljentäminen, levittäminen tai kaupallinen käyttö ilman etukäteen annettua kirjallista lupaa on kielletty.",
+    "author": "Verkkosivut: SofMik"
+  },
+  
+"artwork": {
+  "title": "Teoksen tiedot",
+  "close": "Sulje teoksen tiedot",
+  "artist": "Taiteilija",
+  "year": "Vuosi",
+  "price": "Hinta",
+  "available": "Saatavilla ostettavaksi",
+  "unavailable": "Myyty tai ei saatavilla",
+  "sold": "Myyty",
+  "description": "Tietoa teoksesta",
+  "like": "Lisää suosikkeihin",
+  "unlike": "Poista suosikeista",
+  "buy": "Tiedustele teoksen ostamista",
+  "contact": "Kysy tästä teoksesta",
+  "currency": "EUR",
+  "canvasSize": "Kankaan koko",
+  "emailSubject": "Tiedustelu maalauksesta",
+  "emailBody": "Hei,\n\nOlen kiinnostunut seuraavasta maalauksesta:\n\nTeoksen nimi: {title}\nTeoksen tunnus: {id}\n\nVoisitteko antaa lisätietoja teoksesta?\n\nYstävällisin terveisin"
+},
+  "errors": {
+    "translations": "Käännöksiä ei voitu ladata.",
+    "paintings": "Maalauksia ei voitu ladata. Yritä myöhemmin uudelleen."
+  }
+}

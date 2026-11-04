@@ -1,0 +1,85 @@
+
+{
+  "meta": {
+    "title": "Elena ArtHouse — Original Paintings",
+    "description": "Discover original paintings by Elena. Explore landscapes, portraits, still life and textured painting."
+  },
+  "nav": {
+    "home": "Home",
+    "gallery": "Gallery",
+    "about": "About",
+    "contact": "Contact",
+    "openMenu": "Open navigation",
+    "closeMenu": "Close navigation"
+  },
+  "hero": {
+    "eyebrow": "ORIGINAL ARTWORKS · MADE WITH SOUL",
+    "title": "Art that speaks to the soul.",
+    "description": "Discover original paintings inspired by nature, emotions and the beauty of everyday life.",
+    "button": "Explore collection",
+    "note": "Original paintings · Unique pieces",
+    "imageCaption": "A little world of colour",
+    "imageAlt": "Featured original painting by Elena"
+  },
+  "gallery": {
+    "eyebrow": "DISCOVER THE COLLECTION",
+    "title": "Art in different forms",
+    "description": "Explore four collections, each with its own character and story.",
+    "explore": "Explore collection →",
+    "all": "All artworks",
+    "empty": "There are no paintings in this collection yet.",
+    "back": "Back to the collection"
+  },
+  "categories": {
+    "landscapes": "Landscapes",
+    "portraits": "Portraits",
+    "stillLife": "Still Life",
+    "textured": "Textured Painting"
+  },
+  "about": {
+    "eyebrow": "THE ARTIST BEHIND THE CANVAS",
+    "title": "Every painting begins with a feeling.",
+    "text": "I am Elena, an artist inspired by the colours of nature, the emotions of everyday life and the beauty of imperfect moments.",
+    "textExtra": "Through different styles and textures, I create original works that bring warmth, character and individuality into a space.",
+    "link": "Get to know my art →",
+    "imageAlt": "Elena, the artist"
+  },
+  "contact": {
+    "eyebrow": "LET'S CONNECT",
+    "title": "Perhaps one of these paintings belongs with you.",
+    "description": "Interested in an original artwork? Get in touch to ask about availability, details or purchasing.",
+    "button": "Write me an email",
+    "stayConnected": "STAY CONNECTED",
+    "followMe": "Follow me"
+  },
+  "footer": {
+    "tagline": "Original art, created with soul.",
+    "rights": "All artworks, photographs and visual materials are protected by copyright. Reproduction, distribution or commercial use without prior written permission is prohibited.",
+    "author": "Website by SofMik"
+  },
+  
+"artwork": {
+  "title": "Artwork details",
+  "close": "Close artwork details",
+  "artist": "Artist",
+  "year": "Year",
+  "price": "Price",
+  "available": "Available for sale",
+  "unavailable": "Sold or unavailable",
+  "sold": "Sold",
+  "description": "About this artwork",
+  "like": "Add to favourites",
+  "unlike": "Remove from favourites",
+  "buy": "Enquire about purchasing",
+  "contact": "Enquire about this painting",
+  "currency": "EUR",
+  "canvasSize": "Canvas size",
+  "emailSubject": "Enquiry about painting",
+  "emailBody": "Hello,\n\nI am interested in the following painting:\n\nTitle: {title}\nPainting ID: {id}\n\nCould you please provide more information?\n\nKind regards"
+},
+
+  "errors": {
+    "translations": "Translations could not be loaded.",
+    "paintings": "Paintings could not be loaded. Please try again later."
+  }
+}

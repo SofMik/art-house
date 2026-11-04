@@ -1,0 +1,140 @@
+<!-- LANDSCAPES -->
+
+<!--
+        <article class="category-card">
+          <div class="category-info">
+            <h3>
+              <a href="galleries/landscapes.html" data-i18n="categories.landscapes">
+                Landscapes
+              </a>
+            </h3>
+          </div>
+          <a class="category-image" href="galleries/landscapes.html" aria-label="Explore landscapes"
+            data-i18n-aria-label="categories.landscapes">
+            <img src="images/paintings/landscapes/featured.jpg" alt="Original landscape painting" loading="lazy">
+          </a>
+
+          <div class="category-info">
+
+            <a class="text-link" href="galleries/landscapes.html" data-i18n="gallery.explore">
+              Explore collection →
+            </a>
+          </div>
+        </article>
+
+         -->
+
+         
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta
+    name="description"
+    content="Explore original portraits."
+  >
+  <meta name="theme-color" content="#f8f6f1">
+
+  <title>Portraits — Art Gallery</title>
+
+  <link rel="stylesheet" href="../style.css">
+
+  <script src="../js/translations.js" defer></script>
+  <script src="../js/paintings.js" defer></script>
+  <script src="../js/gallery.js" defer></script>
+  <script src="../script.js" defer></script>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="header-inner">
+
+      <a
+        class="brand"
+        href="../index.html"
+        aria-label="Art House home"
+      >
+        <span class="logo-mark" aria-hidden="true"></span>
+        <span class="brand-name">Elena<span>Art House</span></span>
+      </a>
+
+      <nav class="language-switcher" aria-label="Choose language">
+        <button type="button" data-lang="en" aria-pressed="true">EN</button>
+        <button type="button" data-lang="fi" aria-pressed="false">FI</button>
+        <button type="button" data-lang="es" aria-pressed="false">ES</button>
+      </nav>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="main-nav"
+        aria-label="Open navigation"
+        data-i18n-aria-label="nav.openMenu"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+        <a href="../index.html#home" data-i18n="nav.home">Home</a>
+        <a href="../index.html#gallery" data-i18n="nav.gallery">Gallery</a>
+        <a href="../index.html#about" data-i18n="nav.about">About</a>
+        <a href="../index.html#contact" data-i18n="nav.contact">Contact</a>
+      </nav>
+
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Portraits GALLERY -->
+    <section class="section">
+      <header class="section-heading">
+        <p class="eyebrow">Portraits COLLECTION</p>
+        <h1 data-i18n="categories.portraits">Portraits</h1>
+      </header>
+
+      <div id="painting-grid" class="painting-grid" data-category="landscapes"></div>
+
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+
+      <div class="footer-row footer-row-brand">
+        <a class="brand" href="../index.html">
+          <span class="logo-mark" aria-hidden="true"></span>
+          <span class="brand-name">Elena<span>Art House</span></span>
+        </a>
+
+        <p data-i18n="footer.tagline">
+          Original art, created with soul.
+        </p>
+      </div>
+
+      <nav class="footer-row footer-nav" aria-label="Footer navigation">
+        <a href="../index.html#home" data-i18n="nav.home">Home</a>
+        <a href="../index.html#gallery" data-i18n="nav.gallery">Gallery</a>
+        <a href="../index.html#about" data-i18n="nav.about">About</a>
+        <a href="../index.html#contact" data-i18n="nav.contact">Contact</a>
+      </nav>
+
+      <div class="footer-row footer-bottom">
+        <p>© <span id="current-year">2026</span> Art House</p>
+        <p data-i18n="footer.rights">All artworks reserved.</p>
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+</html>
