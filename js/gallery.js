@@ -67,16 +67,17 @@ const CATEGORY = grid?.dataset.category;
     info.appendChild(title);
     card.append(imageLink, info);
 
-    imageLink.addEventListener("click", () => {
-      const pageURL = new URL(
-        "../painting.html",
-        window.location.href
-      );
+  imageLink.addEventListener("click", () => {
+  const pageURL = new URL(
+    "../painting.html",
+    window.location.href
+  );
 
-      pageURL.searchParams.set("id", painting.id);
+  pageURL.searchParams.set("id", painting.id);
+  pageURL.searchParams.set("from", CATEGORY);
 
-      window.location.href = pageURL.href;
-    });
+  window.location.href = pageURL.href;
+});
 
     return card;
   }

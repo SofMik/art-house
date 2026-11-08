@@ -1,4 +1,3 @@
-
 (() => {
   "use strict";
 
@@ -14,7 +13,7 @@
 
   const availability = document.getElementById("painting-availability");
   const availabilityIndicator = document.getElementById(
-    "painting-availability-indicator"
+    "painting-availability-indicator",
   );
   const enquire = document.getElementById("painting-enquire");
 
@@ -22,6 +21,10 @@
   const modal = document.getElementById("painting-modal");
   const modalImage = document.getElementById("painting-modal-image");
   const modalClose = document.getElementById("painting-modal-close");
+
+  const paintingNavigation = document.getElementById("painting-navigation");
+  const previousLink = document.getElementById("painting-previous");
+  const nextLink = document.getElementById("painting-next");
 
   if (
     !status ||
@@ -43,12 +46,13 @@
 
   const params = new URLSearchParams(window.location.search);
   const paintingId = params.get("id");
+  const returnCategory = params.get("from");
 
   const categoryPages = {
     landscapes: "galleries/landscapes.html",
     portraits: "galleries/portraits.html",
     "still-life": "galleries/still-life.html",
-    "textured-painting": "galleries/textured-painting.html"
+    "textured-painting": "galleries/textured-painting.html",
   };
 
   let painting = null;
@@ -177,11 +181,7 @@
 
   // Close using Escape.
   document.addEventListener("keydown", (event) => {
-    if (
-      event.key === "Escape" &&
-      modal &&
-      !modal.hidden
-    ) {
+    if (event.key === "Escape" && modal && !modal.hidden) {
       event.preventDefault();
       closePaintingModal();
     }
@@ -190,37 +190,30 @@
   function renderAvailability() {
     const isAvailable = painting.available === true;
 
-
     availability.textContent = isAvailable
       ? translate("artwork.available", "Available for sale")
       : translate("artwork.sold", "Sold");
 
-    availabilityIndicator.classList.toggle(
-      "is-unavailable",
-      !isAvailable
+    availabilityIndicator.classList.toggle("is-unavailable", !isAvailable);
+
+    // Always show the enquiry button, even for sold paintings.
+    enquire.hidden = false;
+
+    enquire.textContent = translate(
+      "artwork.contact",
+      "Ask about this painting",
     );
-
-// Always show the enquiry button, even for sold paintings.
-  enquire.hidden = false;
-
-  enquire.textContent = translate(
-    "artwork.contact",
-    "Ask about this painting"
-  );
 
     // Replace with Elena's real email address.
     const recipient = "ELENA_EMAIL@example.com";
 
     const paintingTitle = getText(painting.title);
 
-    const subject = translate(
-      "artwork.emailSubject",
-      "Enquiry about painting"
-    );
+    const subject = translate("artwork.emailSubject", "Enquiry about painting");
 
     const bodyTemplate = translate(
       "artwork.emailBody",
-      "Hello,\n\nI am interested in the following painting:\n\nTitle: {title}\nPainting ID: {id}\n\nCould you please provide more information?\n\nKind regards"
+      "Hello,\n\nI am interested in the following painting:\n\nTitle: {title}\nPainting ID: {id}\n\nCould you please provide more information?\n\nKind regards",
     );
 
     const body = bodyTemplate
@@ -231,7 +224,65 @@
       `mailto:${recipient}` +
       `?subject=${encodeURIComponent(`${subject}: ${paintingTitle}`)}` +
       `&body=${encodeURIComponent(body)}`;
+  }
 
+    async function renderPaintingNavigation() {
+    if (!paintingNavigation || !previousLink || !nextLink) {
+      return;
+    }
+
+    const categories = Array.isArray(painting.category)
+      ? painting.category
+      : [painting.category];
+
+    // Use the collection from which the visitor opened the painting.
+    const activeCategory = categories.includes(returnCategory)
+      ? returnCategory
+      : categories[0];
+
+    const paintings =
+      await window.PaintingsCatalog.getByCategory(activeCategory);
+
+    if (paintings.length <= 1) {
+      paintingNavigation.hidden = true;
+      return;
+    }
+
+    const currentIndex = paintings.findIndex(
+      (item) => item.id === painting.id
+    );
+
+    if (currentIndex === -1) {
+      paintingNavigation.hidden = true;
+      return;
+    }
+
+    // Wrap around at both ends of the collection.
+    const previousIndex =
+      (currentIndex - 1 + paintings.length) % paintings.length;
+
+    const nextIndex =
+      (currentIndex + 1) % paintings.length;
+
+    function createPaintingURL(paintingId) {
+      const url = new URL(window.location.href);
+
+      url.search = "";
+      url.searchParams.set("id", paintingId);
+      url.searchParams.set("from", activeCategory);
+
+      return url.href;
+    }
+
+    previousLink.href = createPaintingURL(
+      paintings[previousIndex].id
+    );
+
+    nextLink.href = createPaintingURL(
+      paintings[nextIndex].id
+    );
+
+    paintingNavigation.hidden = false;
   }
 
   function renderPainting() {
@@ -244,28 +295,17 @@
     title.textContent = paintingTitle;
     image.alt = paintingTitle;
 
-    image.src = new URL(
-      painting.image,
-      document.baseURI
-    ).href;
+    image.src = new URL(painting.image, document.baseURI).href;
 
     setOptionalText(technique, painting.technique);
     setOptionalText(description, painting.description);
 
     if (painting.canvasSize) {
-      const {
-        width,
-        height,
-        unit = "cm"
-      } = painting.canvasSize;
+      const { width, height, unit = "cm" } = painting.canvasSize;
 
-      const canvasLabel = translate(
-        "artwork.canvasSize",
-        "Canvas size"
-      );
+      const canvasLabel = translate("artwork.canvasSize", "Canvas size");
 
-      size.textContent =
-        `${canvasLabel}: ${width} × ${height} ${unit}`;
+      size.textContent = `${canvasLabel}: ${width} × ${height} ${unit}`;
 
       size.hidden = false;
     } else {
@@ -273,10 +313,7 @@
       size.hidden = true;
     }
 
-    if (
-      painting.price !== null &&
-      painting.price !== undefined
-    ) {
+    if (painting.price !== null && painting.price !== undefined) {
       const currency = translate("artwork.currency", "EUR");
 
       price.textContent = `${painting.price} ${currency}`;
@@ -320,17 +357,24 @@
         return;
       }
 
-      backLink.href =
-        categoryPages[painting.category] || "index.html";
+      const category = Array.isArray(painting.category)
+        ? painting.category
+        : [painting.category];
 
+      const returnPage = categoryPages[returnCategory];
+
+      backLink.href =
+        returnPage && category.includes(returnCategory)
+          ? returnPage
+          : categoryPages[category[0]] || "index.html";
+      await renderPaintingNavigation();
       renderPainting();
 
       detail.hidden = false;
       status.hidden = true;
     } catch (error) {
       console.error("Could not load painting:", error);
-      status.textContent =
-        "Could not load painting. Please try again.";
+      status.textContent = "Could not load painting. Please try again.";
     }
   }
 
@@ -342,5 +386,3 @@
 
   init();
 })();
-
-

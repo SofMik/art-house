@@ -1,6 +1,6 @@
 
 [
-  {
+    {
     "id": "still-life-001",
     "category": ["still-life", "textured-painting"],
     "image": "images/paintings/still-life/old-lamp.jpg",
@@ -11,10 +11,10 @@
       "fi": "Vanha lamppu",
       "es": "Lámpara antigua"
     },
-    "description": {
-      "en": "En Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "fi": "FI Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "es": "ES Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "description": {
+      "en": "",
+      "fi": "",
+      "es": ""
     },
     "technique": {
       "en": "Oil on canvas",
@@ -22,66 +22,66 @@
       "es": "Óleo sobre lienzo"
     },
     "canvasSize": {
-      "width": 100,
-      "height": 200,
+      "width": "",
+      "height": "",
+      "unit": "cm"
+    },
+    "price": null,
+    "available": false
+  },
+    {
+    "id": "still-life-002",
+    "category": "still-life",
+    "image": "images/paintings/still-life/the-azure-bowl-and-persimmons.jpg",
+    "width": 2767,
+    "height": 3542,
+    "title": {
+      "en": "The Azure Bowl and Persimmons",
+      "fi": "Sininen kulho ja persimonit",
+      "es": "Сuenco azul y los caquis"
+    },
+     "description": {
+      "en": "Commissioned art is a beautiful dance between pure excitement and a quiet challenge. Born from the joy of bringing something new into existence, this piece was painted in the same breath as my pomegranate artwork. It is a celebration of untamed enthusiasm for the creative process and the gentle competition with oneself to push boundaries.",
+      "fi": "Tilaustyön tekeminen on kaunista tanssia puhtaan innostuksen ja hiljaisen haasteen välillä. Tämä teos syntyi ilosta tuoda jotain uutta maailmaan, ja se on maalattu samassa hengenvedossa granaattiomenamaalaukseni kanssa. Se on luovan prosessin puhtaan innostuksen juhlaa sekä lempeää kilpailua itsensä kanssa omien rajojen rikkomiseksi.",
+      "es": "El arte por encargo es una hermosa danza entre la pura emoción y un desafío silencioso. Nacida de la alegría de dar vida a algo nuevo, esta pieza fue pintada con el mismo aliento que mi obra de las granadas. Es una celebración del entusiasmo puro por el proceso creativo y de la sutil competencia con uno mismo para desafiar los propios límites."
+    },
+    "technique": {
+      "en": "Oil on canvas",
+      "fi": "Öljy kankaalle",
+      "es": "Óleo sobre lienzo"
+    },
+    "canvasSize": {
+      "width": 40,
+      "height": 50,
       "unit": "cm"
     },
     "price": null,
     "available": false
   },
   {
-    "id": "still-life-002",
-    "category": "still-life",
-    "image": "images/paintings/still-life/in-the-summer-garden.jpg",
-    "width": 1664,
-    "height": 2035,
-    "title": {
-      "en": "In the summer garden",
-      "fi": "Kesäpuutarhassa",
-      "es": "En el jardín de verano"
-    },
-    "description": {
-      "en": "",
-      "fi": "",
-      "es": ""
-    },
-    "technique": {
-      "en": "Oil on canvas",
-      "fi": "Öljy kankaalle",
-      "es": "Óleo sobre lienzo"
-    },
-    "canvasSize": {
-      "width": 200,
-      "height": 100,
-      "unit": "cm"
-    },
-    "price": null,
-    "available": true
-  },
-  {
     "id": "still-life-003",
     "category": "still-life",
-    "image": "images/paintings/still-life/crystal-autumn.png",
-    "width": 1627,
-    "height": 2014,
+    "image": "images/paintings/still-life/pomegranates-and-turquoise.jpg",
+    "width": 2931,
+    "height": 3707,
     "title": {
-      "en": "Crystal Autumn",
-      "fi": "Kristallinen syksy",
-      "es": "Otoño de cristal"
+      "en": "Pomegranates and Turquoise",
+      "fi": "Granaattiomenat ja syvä turkoosi",
+      "es": "Granadas y azul turquí"
     },
      "description": {
-      "en": "",
-      "fi": "",
-      "es": ""
+      "en": "I have never been a big fan of art prints. For me, nothing compares to the living energy of real, physical brushstrokes. Yet recently, I came across two prints in a shop that completely captivated me and stole my heart. They weren’t just beautiful—they inspired me to challenge myself with a new still life. Artists often say that pomegranates are among the most difficult subjects to capture. I decided to see for myself. The result is right before you: vibrant red pomegranates resting beside a deep turquoise vase, complemented by the delicate texture of autumn leaves. Working with such expressive colors was an absolute joy.",
+      "fi": "En ole koskaan ollut suuri taideprinttien ystävä. Minulle mikään ei vedä vertoja aitojen siveltimenvetojen elävälle energialle. Hiljattain törmäsin kuitenkin eräässä kaupassa kahteen printtiin, jotka lumosivat minut täysin ja veivät sydämeni. Ne eivät olleet vain kauniita — ne inspiroivat minua haastamaan itseni uuden asetelman parissa. Taiteilijoiden keskuudessa sanotaan usein, että granaattiomenat ovat yksi vaikeimmista kohteista ikuistaa. Päätin kokeilla sitä itse. Tulos on tässä edessäsi: hehkuvan punaiset granaattiomenat syvän turkoosin maljakon vieressä, syyslehtien herkän tekstuurin täydentämänä. Työskentely näiden ilmeikkäiden värien parissa oli puhdasta iloa.",
+      "es": "Nunca he sido una gran admiradora de las reproducciones de arte. Para mí, nada se compara con la energía viva de las pinceladas reales. Sin embargo, hace poco encontré dos láminas en una tienda que me cautivaron por completo y me robaron el corazón. No solo eran hermosas, sino que me inspiraron a desafiarme a mí misma con un nuevo bodegón. Los artistas suelen decir que las granadas son uno de los temas más difíciles de plasmar. Decidí comprobarlo por mí misma. El resultado está justo ante ti: granadas de un rojo vibrante junto a un jarrón de un tono turquesa profundo, complementadas por la delicada textura de las hojas de otoño. Trabajar con colores tan expresivos fue una auténtica alegría."
     },
     "technique": {
-      "en": "Oil on canvas",
-      "fi": "Öljy kankaalle",
-      "es": "Óleo sobre lienzo"
+      "en": "Original oil painting on canvas",
+      "fi": "Öljyvärimaalaus kankaalle",
+      "es": "Pintura al óleo sobre lienzo"
     },
     "canvasSize": {
-      "width": 50,
-      "height": 70,
+      "width": 40,
+      "height": 50,
       "unit": "cm"
     },
     "price": null,
@@ -91,8 +91,8 @@
     "id": "textured-painting-001",
     "category": "textured-painting",
     "image": "images/paintings/textured-painting/the-wild-grape.jpg",
-    "width": 2666,
-    "height": 3738,
+    "width": 2632,
+    "height": 3700,
     "title": {
       "en": "In the summer garden",
       "fi": "Villi viinirypäle",
@@ -118,6 +118,93 @@
   },
   {
     "id": "portraits-001",
+    "category": ["portraits", "textured-painting"],
+    "image": "images/paintings/portraits/memories-of-summer.jpg",
+    "width": 3008,
+    "height": 3687,
+    "title": {
+      "en": "Memories of Summer",
+      "fi": "Kesän muistot",
+      "es": "Recuerdos de verano "
+    },
+    "description": {
+      "en": "You can hide from the world behind a wall of convincing excuses, but it is impossible to deceive your own conscience. Minor compromises with the truth, unnoticed in one’s youth, can become a heavy burden in old age. For at the sunset of our days, left alone with our thoughts, we inevitably confront who we truly were. This painting is dedicated to silence, reconciliation, and inner purity.",
+      "fi": "Maailmalta voi pioutoutua vakuuttavien selitysten muurin taakse, mutta omaa omaatuntoaan on mahdotonta pettää. Pienet kompromissit totuuden kanssa, jotka nuoruudessa jäävät huomaamatta, voivat vanhuudessa muuttua raskaaksi taakaksi. Elämän ehtoopuolella, jäädessämme yksin ajatustemme kanssa, kohtaamme väistämättä sen, keitä todella olimme. Tämä maalaus on omistettu hiljaisuudelle, sovinnolle ja sisäiselle puhtaudelle.",
+      "es": "Uno puede esconderse del mundo tras un muro de excusas convincentes, pero es imposible engañar a la propia conciencia. Los pequeños compromisos con la verdad, imperceptibles en la juventud, pueden convertirse en una pesada carga en la vejez. Al final de nuestros días, a solas con nuestros pensamientos, nos enfrentamos inevitablemente a lo que fuimos en realidad. Esta pintura está dedicada al silencio, la reconciliación y la pureza interior."
+    },
+    "technique": {
+      "en": "Oil and texture paste on hardboard (masonite)",
+      "fi": " Öljy ja tekstuuripasta kovalevylle",
+      "es": "Óleo y pasta de textura sobre tablex (hardboard)"
+    },
+    "canvasSize": {
+      "width": 46,
+      "height": 55,
+      "unit": "cm"
+    },
+    "price": null,
+    "available": true
+  },
+    {
+    "id": "portraits-002",
+    "category": "portraits",
+    "image": "images/paintings/portraits/little-harvest.jpg",
+    "width": 2897,
+    "height": 3719,
+    "title": {
+      "en": "Little Harvest",
+      "fi": "Pieni sato",
+      "es": "Pequeña cosecha"
+    },
+    "description": {
+      "en": "I have always been deeply drawn to painting the faces of children and the elderly. There is an unmatched, pure honesty and innocence in them. They don't play roles or wear masks—children haven't learned how to yet, and the elderly no longer need to. In this absolute authenticity, there is always a profound beauty. I tried to fill this painting with warmth, light, and pure joy. For me, it has become the embodiment of bright, life-affirming meaning and inner harmony. The initial spark of inspiration came from a casual photograph, but the palette was completely transformed to convey the mood of the moment.",
+      "fi": "Lasten ja vanhusten kasvojen maalaaminen on aina inspiroinut minua syvästi. Heissä piilee aito, puhdas rehellisyys ja viattomuus. He eivät esitä rooleja tai käytä naamioita — lapset eivät ole vielä oppineet sitä, eikä vanhusten enää tarvitse. Tässä ehdottomassa aitoudessa elää aina todellinen kauneus. Yritin täyttää tämän maalauksen lämmöllä, valolla ja puhtaalla ilolla. Minulle siitä tuli valoisien, elämää kunnioittavien merkitysten ja sisäisen harmonian ruumiillistuma. Inspiraation kipinä syntyi satunnaisesta valokuvasta, mutta väripaletti muutettiin täysin välittämään hetken tunnelmaa.",
+      "es": "Siempre me ha inspirado profundamente pintar los rostros de los niños y de los ancianos. En ellos reside una sinceridad pura y genuina. No actúan ni usan máscaras: los niños aún no han aprendido a hacerlo y los mayores ya no lo necesitan. En esa autenticidad absoluta siempre vive la verdadera belleza. Intenté llenar esta pintura de calidez, luz y pura alegría. Para mí, se ha convertido en la personificación de significados brillantes y llenos de vida, así como de armonía interior. La chispa inicial de inspiración nació de una fotografía casual, pero la paleta se transformó por completo para transmitir la atmósfera del momento."
+    },
+    "technique": {
+      "en": "Oil on canvas",
+      "fi": "Öljy kankaalle",
+      "es": "Óleo sobre lienzo"
+    },
+    "canvasSize": {
+      "width": 40,
+      "height": 50,
+      "unit": "cm"
+    },
+    "price": null,
+    "available": true
+  },
+    {
+    "id": "portraits-003",
+    "category": "portraits",
+    "image": "images/paintings/portraits/the-silver-of-years.jpg",
+    "width": 2897,
+    "height": 3719,
+    "title": {
+      "en": "The Silver of Years",
+      "fi": "Vuosien hopeaa",
+      "es": "La plata de los años"
+    },
+     "description": {
+      "en": "This is my visual meditation on maturity, peace, and the passage of time. The piece was inspired by a laconic image found on Pinterest. In the profile of the elderly woman, the silver of her hair, and her contemplative gaze, I wanted to convey the silence that comes only with the years. It is a moment of solitude, where external noise gives way to internal reflection. Textured oil brushstrokes and a misty, turquoise-green background emphasize the atmosphere of tranquility, turning the portrait into an ode to wisdom and the beauty of aging.",
+      "fi": "Esta es mi meditación visual sobre la madurez, la paz y el paso del tiempo. La obra fue inspirada por una imagen sutil encontrada en Pinterest. En el perfil de la anciana, el plateado de su cabello y su mirada contemplativa, quise plasmar el silencio que solo llega con los años. Es un momento de soledad, donde el ruido exterior cede el paso a la reflexión interna. Las pinceladas de óleo texturizadas y el fondo brumoso en tonos verde turquesa enfatizan la atmósfera de tranquilidad, transformando el retrato en una oda a la sabiduría y a la belleza de la edad.",
+      "es": "Tämä on visuaalinen meditaationi kypsyydestä, rauhasta ja ajan kulusta. Teoksen inspiraationa toimi Pinterestistä löydetty pelkistetty kuva. Iäkkään naisen sivuprofiilissa, hänen hiustensa hopeassa ja pohtivassa katseessaan halusin välittää sen hiljaisuuden, joka syntyy vain vuosien myötä. Se on yksinolon hetki, jolloin ulkoinen hälinä väistyy sisäisen pohdiskelun tieltä. Öljyvärin tekstuuriset siveltimenvedot ja utuinen, turkoosinvihreä tausta korostavat levollista tunnelmaa muuttaen muotokuvan ylistykseksi viisaudelle ja iän kauneudelle."
+    },
+    "technique": {
+      "en": "Oil on canvas",
+      "fi": "Öljy kankaalle",
+      "es": "Óleo sobre lienzo"
+    },
+    "canvasSize": {
+      "width": 30,
+      "height": 40,
+      "unit": "cm"
+    },
+    "price": null,
+    "available": false
+  },
+  {
+    "id": "portraits-004",
     "category": "portraits",
     "image": "images/paintings/portraits/mango-girl.jpg",
     "width": 703,
@@ -146,7 +233,7 @@
     "available": true
   },
   {
-    "id": "portraits-002",
+    "id": "portraits-005",
     "category": "portraits",
     "image": "images/paintings/portraits/cheerful-granny.jpg",
     "width": 702,
@@ -175,49 +262,20 @@
     "available": true
   },
   {
-    "id": "portraits-003",
-    "category": ["portraits", "textured-painting"],
-    "image": "images/paintings/portraits/memories-of-summer-2026.jpg",
-    "width": 3008,
-    "height": 3687,
+    "id": "landscapes-001",
+      "category": ["landscapes", "still-life"],
+    "image": "images/paintings/landscapes/crystal-autumn.webp",
+    "width": 1627,
+    "height": 2014,
     "title": {
-      "en": "Memories of Summer 2026",
-      "fi": "Kesän muistot",
-      "es": "Recuerdos de verano "
+      "en": "Crystal Autumn",
+      "fi": "Kristallinen syksy",
+      "es": "Otoño de cristal"
     },
-    "description": {
-      "en": "You can hide from the world behind a wall of convincing excuses, but it is impossible to deceive your own conscience. Minor compromises with the truth, unnoticed in one’s youth, can become a heavy burden in old age. For at the sunset of our days, left alone with our thoughts, we inevitably confront who we truly were. This painting is dedicated to silence, reconciliation, and inner purity.",
-      "fi": "Maailmalta voi pioutoutua vakuuttavien selitysten muurin taakse, mutta omaa omaatuntoaan on mahdotonta pettää. Pienet kompromissit totuuden kanssa, jotka nuoruudessa jäävät huomaamatta, voivat vanhuudessa muuttua raskaaksi taakaksi. Elämän ehtoopuolella, jäädessämme yksin ajatustemme kanssa, kohtaamme väistämättä sen, keitä todella olimme. Tämä maalaus on omistettu hiljaisuudelle, sovinnolle ja sisäiselle puhtaudelle.",
-      "es": "Uno puede esconderse del mundo tras un muro de excusas convincentes, pero es imposible engañar a la propia conciencia. Los pequeños compromisos con la verdad, imperceptibles en la juventud, pueden convertirse en una pesada carga en la vejez. Al final de nuestros días, a solas con nuestros pensamientos, nos enfrentamos inevitablemente a lo que fuimos en realidad. Esta pintura está dedicada al silencio, la reconciliación y la pureza interior."
-    },
-    "technique": {
-      "en": "Oil and texture paste on hardboard (masonite)",
-      "fi": " Öljy ja tekstuuripasta kovalevylle",
-      "es": "Óleo y pasta de textura sobre tablex (hardboard)"
-    },
-    "canvasSize": {
-      "width": 46,
-      "height": 55,
-      "unit": "cm"
-    },
-    "price": null,
-    "available": true
-  },
-    {
-    "id": "portraits-004",
-    "category": "portraits",
-    "image": "images/paintings/portraits/little-harvest.jpg",
-    "width": 2897,
-    "height": 3719,
-    "title": {
-      "en": "Little Harvest",
-      "fi": "Pieni sato (Little Harvest)",
-      "es": "Pequeña cosecha (Little Harvest)"
-    },
-    "description": {
-      "en": "I have always been deeply drawn to painting the faces of children and the elderly. There is an unmatched, pure honesty and innocence in them. They don't play roles or wear masks—children haven't learned how to yet, and the elderly no longer need to. In this absolute authenticity, there is always a profound beauty. I tried to fill this painting with warmth, light, and pure joy. For me, it has become the embodiment of bright, life-affirming meaning and inner harmony. The initial spark of inspiration came from a casual photograph, but the palette was completely transformed to convey the mood of the moment.",
-      "fi": "Lasten ja vanhusten kasvojen maalaaminen on aina inspiroinut minua syvästi. Heissä piilee aito, puhdas rehellisyys ja viattomuus. He eivät esitä rooleja tai käytä naamioita — lapset eivät ole vielä oppineet sitä, eikä vanhusten enää tarvitse. Tässä ehdottomassa aitoudessa elää aina todellinen kauneus. Yritin täyttää tämän maalauksen lämmöllä, valolla ja puhtaalla ilolla. Minulle siitä tuli valoisien, elämää kunnioittavien merkitysten ja sisäisen harmonian ruumiillistuma. Inspiraation kipinä syntyi satunnaisesta valokuvasta, mutta väripaletti muutettiin täysin välittämään hetken tunnelmaa.",
-      "es": "Siempre me ha inspirado profundamente pintar los rostros de los niños y de los ancianos. En ellos reside una sinceridad pura y genuina. No actúan ni usan máscaras: los niños aún no han aprendido a hacerlo y los mayores ya no lo necesitan. En esa autenticidad absoluta siempre vive la verdadera belleza. Intenté llenar esta pintura de calidez, luz y pura alegría. Para mí, se ha convertido en la personificación de significados brillantes y llenos de vida, así como de armonía interior. La chispa inicial de inspiración nació de una fotografía casual, pero la paleta se transformó por completo para transmitir la atmósfera del momento."
+     "description": {
+      "en": "",
+      "fi": "",
+      "es": ""
     },
     "technique": {
       "en": "Oil on canvas",
@@ -225,73 +283,15 @@
       "es": "Óleo sobre lienzo"
     },
     "canvasSize": {
-      "width": 40,
-      "height": 50,
+      "width": 50,
+      "height": 70,
       "unit": "cm"
     },
     "price": null,
-    "available": true
+    "available": false
   },
   {
     "id": "still-life-008",
-    "category": "still-life",
-    "image": "images/paintings/still-life/in-the-summer-garden.jpg",
-    "width": 1664,
-    "height": 2035,
-    "title": {
-      "en": "In the summer garden",
-      "fi": "Kesäpuutarhassa",
-      "es": "En el jardín de verano"
-    },
-    "description": {
-      "en": "",
-      "fi": "",
-      "es": ""
-    },
-    "technique": {
-      "en": "Oil on canvas",
-      "fi": "Öljy kankaalle",
-      "es": "Óleo sobre lienzo"
-    },
-    "canvasSize": {
-      "width": 200,
-      "height": 100,
-      "unit": "cm"
-    },
-    "price": null,
-    "available": true
-  },
-  {
-    "id": "still-life-004",
-    "category": "still-life",
-    "image": "images/paintings/still-life/in-the-summer-garden.jpg",
-    "width": 1664,
-    "height": 2035,
-    "title": {
-      "en": "In the summer garden",
-      "fi": "Kesäpuutarhassa",
-      "es": "En el jardín de verano"
-    },
-    "description": {
-      "en": "",
-      "fi": "",
-      "es": ""
-    },
-    "technique": {
-      "en": "Oil on canvas",
-      "fi": "Öljy kankaalle",
-      "es": "Óleo sobre lienzo"
-    },
-    "canvasSize": {
-      "width": 200,
-      "height": 100,
-      "unit": "cm"
-    },
-    "price": null,
-    "available": true
-  },
-  {
-    "id": "still-life-005",
     "category": "still-life",
     "image": "images/paintings/still-life/in-the-summer-garden.jpg",
     "width": 1664,
@@ -350,6 +350,35 @@
   },
   {
     "id": "still-life-007",
+    "category": "still-life",
+    "image": "images/paintings/still-life/in-the-summer-garden.jpg",
+    "width": 1664,
+    "height": 2035,
+    "title": {
+      "en": "In the summer garden",
+      "fi": "Kesäpuutarhassa",
+      "es": "En el jardín de verano"
+    },
+    "description": {
+      "en": "",
+      "fi": "",
+      "es": ""
+    },
+    "technique": {
+      "en": "Oil on canvas",
+      "fi": "Öljy kankaalle",
+      "es": "Óleo sobre lienzo"
+    },
+    "canvasSize": {
+      "width": 200,
+      "height": 100,
+      "unit": "cm"
+    },
+    "price": null,
+    "available": true
+  },
+  {
+    "id": "still-life-009",
     "category": "still-life",
     "image": "images/paintings/still-life/in-the-summer-garden.jpg",
     "width": 1664,

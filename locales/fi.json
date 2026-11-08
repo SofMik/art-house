@@ -49,6 +49,7 @@
     "title": "Ehkä jokin näistä maalauksista kuuluu juuri sinulle.",
     "description": "Kiinnostuitko alkuperäisestä taideteoksesta? Ota yhteyttä ja kysy saatavuudesta, lisätiedoista tai ostamisesta.",
     "button": "Lähetä sähköposti",
+     "mailcontact": "Teoksia koskevissa ostotiedusteluissa voit ottaa yhteyttä sähköpostitse: artbylef@gmail.com",
     "stayConnected": "PYSY MUKANA",
     "followMe": "Seuraa"
   },
@@ -73,7 +74,7 @@
   "buy": "Tiedustele teoksen ostamista",
   "contact": "Kysy tästä teoksesta",
   "currency": "EUR",
-  "canvasSize": "Kankaan koko",
+  "canvasSize": "Koko",
   "emailSubject": "Tiedustelu maalauksesta",
   "emailBody": "Hei,\n\nOlen kiinnostunut seuraavasta maalauksesta:\n\nTeoksen nimi: {title}\nTeoksen tunnus: {id}\n\nVoisitteko antaa lisätietoja teoksesta?\n\nYstävällisin terveisin"
 },
