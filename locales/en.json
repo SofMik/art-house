@@ -48,7 +48,7 @@
     "eyebrow": "LET'S CONNECT",
     "title": "Perhaps one of these paintings belongs with you.",
     "description": "Interested in an original artwork? Get in touch to ask about availability, details or purchasing.",
-    "button": "Write me an email",
+    "button": "Contact me by email",
     "mailcontact": "For purchase inquiries, please contact me by email: artbylef@gmail.com",
     "stayConnected": "STAY CONNECTED",
     "followMe": "Follow me"
@@ -76,7 +76,9 @@
   "currency": "EUR",
   "canvasSize": "Canvas size",
   "emailSubject": "Enquiry about painting",
-  "emailBody": "Hello,\n\nI am interested in the following painting:\n\nTitle: {title}\nPainting ID: {id}\n\nCould you please provide more information?\n\nKind regards"
+  "emailBody": "Hello,\n\nI am interested in the following painting:\n\nTitle: {title}\nPainting ID: {id}\n\nCould you please provide more information?\n\nKind regards",
+  "next": "Next →",
+  "previous": "← Previous"
 },
 
   "errors": {

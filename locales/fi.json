@@ -76,7 +76,9 @@
   "currency": "EUR",
   "canvasSize": "Koko",
   "emailSubject": "Tiedustelu maalauksesta",
-  "emailBody": "Hei,\n\nOlen kiinnostunut seuraavasta maalauksesta:\n\nTeoksen nimi: {title}\nTeoksen tunnus: {id}\n\nVoisitteko antaa lisätietoja teoksesta?\n\nYstävällisin terveisin"
+  "emailBody": "Hei,\n\nOlen kiinnostunut seuraavasta maalauksesta:\n\nTeoksen nimi: {title}\nTeoksen tunnus: {id}\n\nVoisitteko antaa lisätietoja teoksesta?\n\nYstävällisin terveisin",
+  "next": "Seuraava →",
+  "previous": "← Edellinen"
 },
   "errors": {
     "translations": "Käännöksiä ei voitu ladata.",
