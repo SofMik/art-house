@@ -251,9 +251,11 @@ h3 {
   white-space: nowrap;
   position: relative;
   padding-block: 8px;
-  color: #55534b;
-  font-size: 15px;
-  letter-spacing: 0.025em;
+   color: var(--color-accent-dark);
+  font-size: 16px;
+  font-weight: bold;
+    text-transform: uppercase;
+  letter-spacing: 0.065em;
   white-space: nowrap;
   transition: color var(--transition);
 }
@@ -963,12 +965,15 @@ body:has(.painting-dialog[open]) {
     padding: 10px var(--gutter) 18px;
 
     border-bottom: 1px solid var(--color-border);
-    background: var(--color-bg);
+background: rgb(245 243 238 / 85%);
+backdrop-filter: blur(14px);
+-webkit-backdrop-filter: blur(14px);
   }
 
   .main-nav.is-open {
     display: flex;
     flex-direction: column;
+
   }
 
   .main-nav a {
