@@ -303,9 +303,8 @@
     if (painting.canvasSize) {
       const { width, height, unit = "cm" } = painting.canvasSize;
 
-      const canvasLabel = translate("artwork.canvasSize", "Canvas size");
-
-      size.textContent = `${canvasLabel}: ${width} × ${height} ${unit}`;
+    
+        size.textContent = `${width} × ${height} ${unit}`;
 
       size.hidden = false;
     } else {

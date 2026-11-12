@@ -73,7 +73,7 @@
   "unlike": "Eliminar de favoritos",
   "buy": "Consultar la compra de esta obra",
   "contact": "Consultar sobre esta pintura",
-  "currency": "EUR",
+  "currency": "€",
   "canvasSize": "Tamaño del lienzo",
   "emailSubject": "Consulta sobre una pintura",
   "emailBody": "Hola,\n\nEstoy interesado/a en la siguiente pintura:\n\nTítulo de la obra: {title}\nIdentificador de la obra: {id}\n\n¿Podría facilitarme más información sobre esta obra?\n\nUn cordial saludo",

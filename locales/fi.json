@@ -73,7 +73,7 @@
   "unlike": "Poista suosikeista",
   "buy": "Tiedustele teoksen ostamista",
   "contact": "Kysy tästä teoksesta",
-  "currency": "EUR",
+  "currency": "€",
   "canvasSize": "Koko",
   "emailSubject": "Tiedustelu maalauksesta",
   "emailBody": "Hei,\n\nOlen kiinnostunut seuraavasta maalauksesta:\n\nTeoksen nimi: {title}\nTeoksen tunnus: {id}\n\nVoisitteko antaa lisätietoja teoksesta?\n\nYstävällisin terveisin",

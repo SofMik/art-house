@@ -73,7 +73,7 @@
   "unlike": "Remove from favourites",
   "buy": "Enquire about purchasing",
   "contact": "Enquire about this painting",
-  "currency": "EUR",
+  "currency": "€",
   "canvasSize": "Canvas size",
   "emailSubject": "Enquiry about painting",
   "emailBody": "Hello,\n\nI am interested in the following painting:\n\nTitle: {title}\nPainting ID: {id}\n\nCould you please provide more information?\n\nKind regards",

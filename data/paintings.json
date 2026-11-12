@@ -26,8 +26,8 @@
       "height": "",
       "unit": "cm"
     },
-    "price": null,
-    "available": false
+    "price": "180",
+    "available": true
   },
     {
     "id": "still-life-002",
@@ -88,20 +88,49 @@
     "available": false
   },
   {
+    "id": "still-life-004",
+    "category": "still-life",
+    "image": "images/paintings/still-life/in-the-summer-garden.jpg",
+    "width": 1664,
+    "height": 2035,
+    "title": {
+      "en": "In the summer garden",
+      "fi": "Kesäpuutarhassa",
+      "es": "En el jardín de verano"
+    },
+    "description": {
+      "en": "",
+      "fi": "",
+      "es": ""
+    },
+    "technique": {
+      "en": "Oil on canvas",
+      "fi": "Öljy kankaalle",
+      "es": "Óleo sobre lienzo"
+    },
+    "canvasSize": {
+      "width": 200,
+      "height": 100,
+      "unit": "cm"
+    },
+    "price": "250",
+    "available": true
+  },
+  {
     "id": "textured-painting-001",
     "category": "textured-painting",
     "image": "images/paintings/textured-painting/the-wild-grape.jpg",
     "width": 2632,
     "height": 3700,
     "title": {
-      "en": "In the summer garden",
+      "en": "Wild Grapevine",
       "fi": "Villi viinirypäle",
-      "es": "La uva silvestre"
+      "es": "Parra virgen"
     },
     "description": {
-      "en": "Every painting has a story, but this one is woven from the warmest threads of my childhood memories. When I was a child, my grandmother had a beautiful garden filled with various trees and plants, and among them grew three grapevines. Over the years, they grew so grand and wild that they formed a thick, lush green roof over her entire small yard. Can you imagine the pure bliss of stepping into that green oasis in the middle of a scorching summer day? Hidden from the heat under the canopy of leaves and heavy clusters, we would sip tea and admire the ripening grapes. Recently, I stumbled upon a photo on Pinterest, and this beautiful wave of nostalgia completely washed over me. Instantly, an artistic idea sparked in my mind: what if I created the background using a heavy texture paste? That way, the wall wouldn't just look real—it would actually feel like a real, sun-drenched stone wall when you touch it. Painting the glossy, vibrant grapes over this rough surface was a true battle with the texture, but it was worth every stroke. This artwork is a piece of my heart, a little sanctuary of shade and sweet memories.",
-      "fi": "Jokaisella maalauksella on tarina, ja tämä teos on kudottu lapsuuteni lämpimimmistä muistoista. Lapsuudessani isoäitini pientä pihaa koristi kolme suurta viiniköynnöstä, jotka muodostivat vehreän, suojaavan katon keskellä polttavaa kesää. Tuon vihreän keitaan tuntu ja muistot kypsyvistä rypäleistä inspiroivat minua luomaan tämän teoksen. Halusin herättää muiston eloon myös kosketuksen kautta, joten rakensin taustan paksulla struktuuripastalla. Sen ansiosta pohja tuntuu aidolta, auringon lämmittämältä kiviseinältä. Kiiltävien ja eläväisten rypäleiden maalaaminen karhean pinnan päälle oli haastava tekstuurityö, joka teki lopputuloksesta jokaisen siveltimenvedon arvoisen. Tämä maalaus on palanen sydäntäni – varjoisa turvapaikka täynnä suloisia muistoja.",
-      "es": "Cada cuadro tiene una historia, y esta obra está tejida con los hilos más cálidos de mis recuerdos de la infancia. De niña, el pequeño patio de mi abuela estaba cubierto por tres grandes vides que formaban un techo verde y frondoso, un verdadero oasis en los días calurosos de verano. La nostalgia de aquellos momentos bajo la sombra y el recuerdo de las uvas madurando inspiraron esta creación. Para lograr que la obra se sintiera real no solo a la vista sino también al tacto, creé el fondo con una pasta de textura densa que emula una auténtica pared de piedra bañada por el sol. Pintar las uvas brillantes y llenas de vida sobre esta superficie rugosa fue un gran desafío técnico, pero valió la pena cada pincelada. Esta pieza es un pedazo de mi corazón: un pequeño refugio de sombra y dulces recuerdos."
+      "en": "Every painting has a story, but this one is woven from the warmest threads of my childhood memories. When I was a child, my grandmother had a beautiful garden full of all kinds of trees and plants, and among them grew three grapevines. Over time, they grew so much that they turned into a thick, lush green canopy covering her entire little yard. What bliss it is to step into such a green oasis in the middle of a scorching summer day. Recently, I came across a photo on Pinterest, and a wave of bright memories washed over me. An artistic idea came to me at once: what if I made the background with heavy texture paste? That way, the wall wouldn’t just look real. To the touch, it would feel like genuine sun-drenched stone masonry. Painting the glossy, vibrant grapes over such a rough surface was a difficult task, a real battle with the texture, but the result was worth every brushstroke. This work is a piece of my heart, a little corner of cool shade and sweet memories.",
+      "fi": "Jokaisella maalauksella on oma tarinansa, mutta tämä on kudottu lapsuuteni lämpimimmistä muistoista. Lapsena isoäidilläni oli kaunis puutarha, joka oli täynnä erilaisia puita ja kasveja, ja niiden joukossa kasvoi kolme viiniköynnöstä. Ajan myötä ne kasvoivat niin rehevästi, että niistä muodostui tiheä, vehreä katos koko hänen pienen pihansa ylle. Mikä ihana tunne onkaan astua tällaiseen vihreään keitaaseen keskellä polttavan kuumaa kesäpäivää. Hiljattain törmäsin Pinterestissä valokuvaan, ja minut valtasi aalto valoisia muistoja. Mieleeni juolahti heti taiteellinen idea: entä jos tekisin taustan paksulla struktuuripastalla? Silloin seinä ei vain näyttäisi todelliselta, vaan koskettaessa se tuntuisi oikealta, auringon lämmittämältä kivimuurilta. Kiiltävien, eloisien viinirypäleiden maalaaminen tällaisen karkean pinnan päälle oli haastavaa, todellista taistelua pinnan rakenteen kanssa, mutta lopputulos oli jokaisen siveltimenvedon arvoinen. Tämä työ on pala sydäntäni, pieni kolkka viileää varjoa ja suloisia muistoja.",
+      "es": "Cada cuadro tiene su historia, pero este está tejido con los hilos más cálidos de mis recuerdos de infancia. Cuando era niña, mi abuela tenía un hermoso jardín lleno de todo tipo de árboles y plantas, y entre ellos crecían tres vides. Con el tiempo se extendieron tanto que formaron un toldo verde, espeso y frondoso, que cubría todo su pequeño patio. Qué dicha es entrar en un oasis verde como ese en pleno día de verano abrasador. Hace poco encontré una fotografía en Pinterest y me invadió una ola de recuerdos luminosos. De inmediato surgió una idea artística: ¿y si hacía el fondo con pasta de textura densa? Así, la pared no solo parecería real: al tocarla, se sentiría como un auténtico muro de piedra bañado por el sol. Pintar las uvas brillantes y vivas sobre una superficie tan rugosa fue una tarea difícil, una verdadera batalla con la textura, pero el resultado valió cada pincelada. Esta obra es un pedacito de mi corazón, un rincón de sombra fresca y dulces recuerdos."
     },
     "technique": {
       "en": " Original oil & texture on canvas",
@@ -113,7 +142,7 @@
       "height": 70,
       "unit": "cm"
     },
-    "price": null,
+    "price": "190",
     "available": true
   },
   {
@@ -142,7 +171,7 @@
       "height": 55,
       "unit": "cm"
     },
-    "price": null,
+    "price": "180",
     "available": true
   },
     {
@@ -171,7 +200,7 @@
       "height": 50,
       "unit": "cm"
     },
-    "price": null,
+    "price": "150",
     "available": true
   },
     {
@@ -187,8 +216,8 @@
     },
      "description": {
       "en": "This is my visual meditation on maturity, peace, and the passage of time. The piece was inspired by a laconic image found on Pinterest. In the profile of the elderly woman, the silver of her hair, and her contemplative gaze, I wanted to convey the silence that comes only with the years. It is a moment of solitude, where external noise gives way to internal reflection. Textured oil brushstrokes and a misty, turquoise-green background emphasize the atmosphere of tranquility, turning the portrait into an ode to wisdom and the beauty of aging.",
-      "fi": "Esta es mi meditación visual sobre la madurez, la paz y el paso del tiempo. La obra fue inspirada por una imagen sutil encontrada en Pinterest. En el perfil de la anciana, el plateado de su cabello y su mirada contemplativa, quise plasmar el silencio que solo llega con los años. Es un momento de soledad, donde el ruido exterior cede el paso a la reflexión interna. Las pinceladas de óleo texturizadas y el fondo brumoso en tonos verde turquesa enfatizan la atmósfera de tranquilidad, transformando el retrato en una oda a la sabiduría y a la belleza de la edad.",
-      "es": "Tämä on visuaalinen meditaationi kypsyydestä, rauhasta ja ajan kulusta. Teoksen inspiraationa toimi Pinterestistä löydetty pelkistetty kuva. Iäkkään naisen sivuprofiilissa, hänen hiustensa hopeassa ja pohtivassa katseessaan halusin välittää sen hiljaisuuden, joka syntyy vain vuosien myötä. Se on yksinolon hetki, jolloin ulkoinen hälinä väistyy sisäisen pohdiskelun tieltä. Öljyvärin tekstuuriset siveltimenvedot ja utuinen, turkoosinvihreä tausta korostavat levollista tunnelmaa muuttaen muotokuvan ylistykseksi viisaudelle ja iän kauneudelle."
+      "es": "Esta es mi meditación visual sobre la madurez, la paz y el paso del tiempo. La obra fue inspirada por una imagen sutil encontrada en Pinterest. En el perfil de la anciana, el plateado de su cabello y su mirada contemplativa, quise plasmar el silencio que solo llega con los años. Es un momento de soledad, donde el ruido exterior cede el paso a la reflexión interna. Las pinceladas de óleo texturizadas y el fondo brumoso en tonos verde turquesa enfatizan la atmósfera de tranquilidad, transformando el retrato en una oda a la sabiduría y a la belleza de la edad.",
+      "fi": "Tämä on visuaalinen meditaationi kypsyydestä, rauhasta ja ajan kulusta. Teoksen inspiraationa toimi Pinterestistä löydetty pelkistetty kuva. Iäkkään naisen sivuprofiilissa, hänen hiustensa hopeassa ja pohtivassa katseessaan halusin välittää sen hiljaisuuden, joka syntyy vain vuosien myötä. Se on yksinolon hetki, jolloin ulkoinen hälinä väistyy sisäisen pohdiskelun tieltä. Öljyvärin tekstuuriset siveltimenvedot ja utuinen, turkoosinvihreä tausta korostavat levollista tunnelmaa muuttaen muotokuvan ylistykseksi viisaudelle ja iän kauneudelle."
     },
     "technique": {
       "en": "Oil on canvas",
@@ -229,7 +258,7 @@
       "height": 100,
       "unit": "cm"
     },
-    "price": null,
+    "price":"70",
     "available": true
   },
   {
@@ -258,7 +287,7 @@
       "height": 100,
       "unit": "cm"
     },
-    "price": null,
+    "price": "80",
     "available": true
   },
   {
@@ -287,123 +316,9 @@
       "height": 70,
       "unit": "cm"
     },
-    "price": null,
+    "price": "200",
     "available": false
-  },
-  {
-    "id": "still-life-008",
-    "category": "still-life",
-    "image": "images/paintings/still-life/in-the-summer-garden.jpg",
-    "width": 1664,
-    "height": 2035,
-    "title": {
-      "en": "In the summer garden",
-      "fi": "Kesäpuutarhassa",
-      "es": "En el jardín de verano"
-    },
-    "description": {
-      "en": "",
-      "fi": "",
-      "es": ""
-    },
-    "technique": {
-      "en": "Oil on canvas",
-      "fi": "Öljy kankaalle",
-      "es": "Óleo sobre lienzo"
-    },
-    "canvasSize": {
-      "width": 200,
-      "height": 100,
-      "unit": "cm"
-    },
-    "price": null,
-    "available": true
-  },
-  {
-    "id": "still-life-006",
-    "category": "still-life",
-    "image": "images/paintings/still-life/in-the-summer-garden.jpg",
-    "width": 1664,
-    "height": 2035,
-    "title": {
-      "en": "In the summer garden",
-      "fi": "Kesäpuutarhassa",
-      "es": "En el jardín de verano"
-    },
-    "description": {
-      "en": "",
-      "fi": "",
-      "es": ""
-    },
-    "technique": {
-      "en": "Oil on canvas",
-      "fi": "Öljy kankaalle",
-      "es": "Óleo sobre lienzo"
-    },
-    "canvasSize": {
-      "width": 200,
-      "height": 100,
-      "unit": "cm"
-    },
-    "price": null,
-    "available": true
-  },
-  {
-    "id": "still-life-007",
-    "category": "still-life",
-    "image": "images/paintings/still-life/in-the-summer-garden.jpg",
-    "width": 1664,
-    "height": 2035,
-    "title": {
-      "en": "In the summer garden",
-      "fi": "Kesäpuutarhassa",
-      "es": "En el jardín de verano"
-    },
-    "description": {
-      "en": "",
-      "fi": "",
-      "es": ""
-    },
-    "technique": {
-      "en": "Oil on canvas",
-      "fi": "Öljy kankaalle",
-      "es": "Óleo sobre lienzo"
-    },
-    "canvasSize": {
-      "width": 200,
-      "height": 100,
-      "unit": "cm"
-    },
-    "price": null,
-    "available": true
-  },
-  {
-    "id": "still-life-009",
-    "category": "still-life",
-    "image": "images/paintings/still-life/in-the-summer-garden.jpg",
-    "width": 1664,
-    "height": 2035,
-    "title": {
-      "en": "In the summer garden",
-      "fi": "Kesäpuutarhassa",
-      "es": "En el jardín de verano"
-    },
-    "description": {
-      "en": "",
-      "fi": "",
-      "es": ""
-    },
-    "technique": {
-      "en": "Oil on canvas",
-      "fi": "Öljy kankaalle",
-      "es": "Óleo sobre lienzo"
-    },
-    "canvasSize": {
-      "width": 200,
-      "height": 100,
-      "unit": "cm"
-    },
-    "price": null,
-    "available": true
   }
+  
+  
 ]

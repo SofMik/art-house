@@ -20,21 +20,23 @@
 
   <main class="painting-page">
     <div class="painting-page-header">
+       <a class="text-link painting-page-back" id="home-back" href="index.html" data-i18n="nav.home">Home</a>
       <a class="text-link painting-page-back" id="painting-back" href="index.html" data-i18n="gallery.back">
         Back to the collection
       </a>
+
     </div>
     <div>
-     <nav class="painting-navigation" id="painting-navigation" aria-label="Painting navigation" hidden>
-  <a id="painting-previous" data-i18n="artwork.previous" class="text-link" href="">
-    ← Previous
-  </a>
+      <nav class="painting-navigation" id="painting-navigation" aria-label="Painting navigation" hidden>
+        <a id="painting-previous" data-i18n="artwork.previous" class="text-link" href="">
+          ← Previous
+        </a>
 
-  <a id="painting-next" data-i18n="artwork.next" class="text-link" href="">
-    Next →
-  </a>
-</nav>
-</div>
+        <a id="painting-next" data-i18n="artwork.next" class="text-link" href="">
+          Next →
+        </a>
+      </nav>
+    </div>
     <p id="painting-status" class="painting-page-status" role="status" aria-live="polite">
       Loading painting...
     </p>
@@ -47,32 +49,22 @@
       <div class="painting-page-info">
         <h1 id="painting-title" class="painting-page-title"></h1>
 
-        <div class="painting-page-meta">
+
+        <div id="painting-description" class="painting-page-description" hidden></div>
+  <div class="painting-page-meta">
+        
           <p id="painting-technique" hidden></p>
           <p id="painting-size" hidden></p>
         </div>
-
-        <div id="painting-description" class="painting-page-description" hidden></div>
-
         <div class="painting-page-availability">
           <span id="painting-availability-indicator" class="painting-availability-indicator" aria-hidden="true"></span>
           <p id="painting-availability"></p>
         </div>
-
         <p id="painting-price" class="painting-page-price" hidden></p>
-
-        <a id="painting-enquire" class="button button-light painting-page-enquire" href="mailto:artbylef@gmail.com" hidden>
+        <a id="painting-enquire" class="button button-light painting-page-enquire" href="mailto:artbylef@gmail.com"
+          hidden>
           Enquire about this painting
         </a>
-        <nav class="painting-navigation" id="painting-navigation" aria-label="Painting navigation" hidden>
-  <a id="painting-previous" data-i18n="artwork.previous" class="text-link" href="">
-    ← Previous
-  </a>
-
-  <a id="painting-next" data-i18n="artwork.next" class="text-link" href="">
-    Next →
-  </a>
-</nav>
       </div>
     </article>
 
