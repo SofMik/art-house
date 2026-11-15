@@ -923,7 +923,7 @@ body:has(.painting-dialog[open]) {
   }
 
   html {
-    scroll-padding-top: 78px;
+    scroll-padding-top: 38px;
   }
 
   section[id] {
