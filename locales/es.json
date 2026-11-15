@@ -25,7 +25,7 @@
   "gallery": {
     "eyebrow": "DESCUBRE LA COLECCIÓN",
     "title": "Expresiones sobre lienzo",
-    "description": "Explora cuatro colecciones, cada una con su propia personalidad e historia.",
+    "description": "Explora cuatro colecciones, cada una con su propia personalidad e historia",
     "explore": "Explorar colección →",
     "all": "Todas las obras",
     "empty": "Todavía no hay pinturas en esta colección.",
@@ -58,7 +58,7 @@
     "followMe": "Sígueme"
   },
   "footer": {
-    "tagline": "Pinturas originales, creadas con alegría.",
+    "tagline": "Pinturas originales, creadas con alegría",
     "rights": "Todas las obras de arte, fotografías y materiales visuales están protegidos por derechos de autor. Queda prohibida su reproducción, distribución o utilización con fines comerciales sin autorización previa por escrito.",
     "author": "Diseñado y desarrollado por SofMik"
   },
@@ -78,7 +78,6 @@
   "buy": "Consultar la compra de esta obra",
   "contact": "Consultar sobre esta pintura",
   "currency": "€",
-  "canvasSize": "Tamaño del lienzo",
   "emailSubject": "Consulta sobre una pintura",
   "emailBody": "Hola,\n\nEstoy interesado/a en la siguiente pintura:\n\nTítulo de la obra: {title}\nIdentificador de la obra: {id}\n\n¿Podría facilitarme más información sobre esta obra?\n\nUn cordial saludo",
   "next": "Siguiente →",

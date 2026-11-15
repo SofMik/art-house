@@ -1,6 +1,5 @@
 /* =========================================
-   ELENA ARTHOUSE
-   Elegant Art Gallery
+  >Art by Lef Studio
 ========================================= */
 
 /* 1. DESIGN TOKENS */
@@ -370,7 +369,7 @@ h3 {
 
   display: grid;
   grid-template-columns: 1.10fr 0.90fr;
-  align-items: center;
+align-items: start;
   gap: clamp(35px, 3vw, 75px);
 }
 
@@ -410,11 +409,12 @@ h3 {
 
 .hero-art img {
   display: block;
-  width: 85%;
+  width: 80%;
   height: auto;
   aspect-ratio: 2632 / 3700;
   object-fit: contain;
   object-position: center;
+  margin-top: 30px;
 }
 
 .hero-art-caption {
@@ -792,7 +792,7 @@ h3 {
 }
 
 .footer-rights {
-  max-width: 600px;
+  max-width: 500px;
 }
 
 .footer-author {
@@ -1055,7 +1055,7 @@ body:has(.painting-dialog[open]) {
 
   .hero-art img {
     display: block;
-    width: 75%;
+    width: 80%;
     max-width: 420px;
     height: auto;
     aspect-ratio: 2632 / 3700;
@@ -1074,7 +1074,7 @@ body:has(.painting-dialog[open]) {
   /* Gallery */
 
   .gallery-preview {
-    padding-block: 10px 30px;
+    padding-block: 35px 40px;
   }
 
   .section-heading {
@@ -1096,14 +1096,11 @@ body:has(.painting-dialog[open]) {
 
   /* ABOUT — MOBILE */
 
-  
-/* ABOUT — MOBILE */
-
 .about {
   padding-block: 50px 55px;
 }
 
-/* CHANGED: оба заголовка по центру */
+
 .about-heading {
   margin-bottom: 30px;
   text-align: center;
@@ -1118,7 +1115,6 @@ body:has(.painting-dialog[open]) {
   font-size: clamp(32px, 7vw, 42px);
 }
 
-/* Фото сверху, текст снизу */
 .about-layout {
   grid-template-columns: 1fr;
   gap: 28px;
@@ -1139,7 +1135,6 @@ body:has(.painting-dialog[open]) {
   object-fit: cover;
 }
 
-/* CHANGED: основной текст слева */
 .about-content {
   width: 100%;
   max-width: 100%;
@@ -1387,6 +1382,7 @@ body:has(.painting-dialog[open]) {
 .painting-page-back {
   display: inline-block;
   text-decoration: none;
+  color: var(--color-accent-dark);
   font-size: 14px;
   font-weight: bold;
   margin-left: 20px;
@@ -1398,7 +1394,7 @@ body:has(.painting-dialog[open]) {
 
 .painting-page-back:hover {
   border-color: var(--color-accent-dark);
-  color: var(--color-accent-dark);
+  color: var(--color-accent-light);
 }
 
 
@@ -1441,6 +1437,7 @@ body:has(.painting-dialog[open]) {
 .painting-page-meta p {
   margin: 10px 0 5px;
   line-height: 1.7;
+  font-style: italic;
 }
 
 .painting-page-description {
@@ -1678,4 +1675,12 @@ body.painting-modal-open {
   .painting-modal {
     transition: none;
   }
+}
+
+[hidden] {
+  display: none !important;
+}
+
+html {
+  overflow-anchor: none;
 }

@@ -6,6 +6,7 @@
   const image = document.getElementById("painting-image");
   const title = document.getElementById("painting-title");
   const technique = document.getElementById("painting-technique");
+  const year = document.getElementById("painting-year");
   const size = document.getElementById("painting-size");
   const description = document.getElementById("painting-description");
   const price = document.getElementById("painting-price");
@@ -32,6 +33,7 @@
     !image ||
     !title ||
     !technique ||
+    !year ||
     !size ||
     !description ||
     !price ||
@@ -304,7 +306,7 @@
       const { width, height, unit = "cm" } = painting.canvasSize;
 
     
-        size.textContent = `${width} × ${height} ${unit}`;
+    size.textContent = `${width} × ${height} ${unit}`;
 
       size.hidden = false;
     } else {
@@ -312,7 +314,7 @@
       size.hidden = true;
     }
 
-    if (painting.price !== null && painting.price !== undefined) {
+      if (painting.price !== null && painting.price !== undefined) {
       const currency = translate("artwork.currency", "EUR");
 
       price.textContent = `${painting.price} ${currency}`;
@@ -322,11 +324,20 @@
       price.hidden = true;
     }
 
+    if (painting.year !== null && painting.year !== undefined) {
+      
+      year.textContent = `${painting.year}`;
+      year.hidden = false;
+    } else {
+      year.textContent = "";
+      year.hidden = true;
+    }
+
     renderAvailability();
 
     document.title = paintingTitle
-      ? `${paintingTitle} — Elena Art House`
-      : "Painting — Elena Art House";
+      ? `${paintingTitle} — >Art by Lef Studio`
+      : "Painting — >Art by Lef Studio";
 
     // Keep the modal image and alt text synchronized
     // if the language changes while the modal is open.
@@ -336,46 +347,69 @@
     }
   }
 
-  async function init() {
+
+
+async function init() {
+  status.hidden = true;
+
+  const loadingTimer = window.setTimeout(() => {
+    status.textContent = "Loading painting...";
+    status.hidden = false;
+  }, 500);
+
+  try {
     if (!paintingId) {
       status.textContent = "No painting was specified.";
+      status.hidden = false;
       return;
     }
 
     if (!window.PaintingsCatalog) {
       status.textContent = "The painting catalog is unavailable.";
+      status.hidden = false;
       console.error("PaintingsCatalog was not found.");
       return;
     }
 
-    try {
-      painting = await window.PaintingsCatalog.getById(paintingId);
+    painting = await window.PaintingsCatalog.getById(paintingId);
 
-      if (!painting) {
-        status.textContent = "Painting not found.";
-        return;
-      }
-
-      const category = Array.isArray(painting.category)
-        ? painting.category
-        : [painting.category];
-
-      const returnPage = categoryPages[returnCategory];
-
-      backLink.href =
-        returnPage && category.includes(returnCategory)
-          ? returnPage
-          : categoryPages[category[0]] || "index.html";
-      await renderPaintingNavigation();
-      renderPainting();
-
-      detail.hidden = false;
-      status.hidden = true;
-    } catch (error) {
-      console.error("Could not load painting:", error);
-      status.textContent = "Could not load painting. Please try again.";
+    if (!painting) {
+      status.textContent = "Painting not found.";
+      status.hidden = false;
+      return;
     }
+
+    const category = Array.isArray(painting.category)
+      ? painting.category
+      : [painting.category];
+
+    const returnPage = categoryPages[returnCategory];
+
+    backLink.href =
+      returnPage && category.includes(returnCategory)
+        ? returnPage
+        : categoryPages[category[0]] || "index.html";
+
+    renderPainting();
+
+    detail.hidden = false;
+
+    window.clearTimeout(loadingTimer);
+    status.hidden = true;
+
+    renderPaintingNavigation();
+
+  } catch (error) {
+    console.error("Could not load painting:", error);
+    status.textContent = "Could not load painting. Please try again.";
+    status.hidden = false;
+  } finally {
+    window.clearTimeout(loadingTimer);
   }
+}
+
+
+
 
   document.addEventListener("languageChanged", () => {
     if (painting) {

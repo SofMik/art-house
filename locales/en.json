@@ -25,7 +25,7 @@
   "gallery": {
     "eyebrow": "DISCOVER THE COLLECTION",
     "title": " Expressions on Canvas",
-    "description": "Explore four collections, each with its own character and story.",
+    "description": "Explore four collections, each with its own character and story",
     "explore": "Explore collection →",
     "all": "All artworks",
     "empty": "There are no paintings in this collection yet.",
@@ -34,7 +34,7 @@
   "categories": {
     "landscapes": "Landscapes",
     "portraits": "Portraits",
-    "stillLife": "Still Life",
+    "stillLife": "Still Lifes",
     "textured": "Textured Painting"
   },
   "about": {
@@ -58,7 +58,7 @@
     "followMe": "Follow me"
   },
   "footer": {
-    "tagline": "Original paintings, created with joy.",
+    "tagline": "Original paintings, created with joy",
     "rights": "All artworks, photographs and visual materials are protected by copyright. Reproduction, distribution or commercial use without prior written permission is prohibited.",
     "author": "Designed & Developed by SofMik"
   },
@@ -78,7 +78,6 @@
   "buy": "Enquire about purchasing",
   "contact": "Enquire about this painting",
   "currency": "€",
-  "canvasSize": "Canvas size",
   "emailSubject": "Enquiry about painting",
   "emailBody": "Hello,\n\nI am interested in the following painting:\n\nTitle: {title}\nPainting ID: {id}\n\nCould you please provide more information?\n\nKind regards",
   "next": "Next →",

@@ -26,6 +26,7 @@
       "height": "",
       "unit": "cm"
     },
+    "year": "2026",
     "price": "180",
     "available": true
   },
@@ -55,6 +56,7 @@
       "height": 50,
       "unit": "cm"
     },
+    "year": "2026",
     "price": null,
     "available": false
   },
@@ -84,6 +86,7 @@
       "height": 50,
       "unit": "cm"
     },
+    "year": "2026",
     "price": null,
     "available": false
   },
@@ -113,6 +116,7 @@
       "height": 55,
       "unit": "cm"
     },
+    "year": "2026",
     "price": "250",
     "available": true
   },
@@ -142,6 +146,7 @@
       "height": 70,
       "unit": "cm"
     },
+    "year": "2026",
     "price": "190",
     "available": true
   },
@@ -171,6 +176,7 @@
       "height": 46,
       "unit": "cm"
     },
+    "year": "2026",
     "price": "150",
     "available": true
   },
@@ -200,6 +206,7 @@
       "height": 55,
       "unit": "cm"
     },
+    "year": "2026",
     "price": "180",
     "available": true
   },
@@ -229,6 +236,7 @@
       "height": 50,
       "unit": "cm"
     },
+    "year": "2026",
     "price": "150",
     "available": true
   },
@@ -258,6 +266,7 @@
       "height": 40,
       "unit": "cm"
     },
+    "year": "2026",
     "price": null,
     "available": false
   },
@@ -287,6 +296,7 @@
       "height": 100,
       "unit": "cm"
     },
+    "year": "2026",
     "price":"70",
     "available": true
   },
@@ -316,6 +326,7 @@
       "height": 100,
       "unit": "cm"
     },
+    "year": "2024",
     "price": "80",
     "available": true
   },
@@ -345,6 +356,7 @@
       "height": 70,
       "unit": "cm"
     },
+    "year": "2026",
     "price": "200",
     "available": false
   }

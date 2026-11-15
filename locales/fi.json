@@ -25,7 +25,7 @@
   "gallery": {
     "eyebrow": "TUTUSTU KOKOELMAAN",
     "title": "Ilmaisuja kankaalla",
-    "description": "Tutustu neljään kokoelmaan, joista jokaisella on oma luonteensa ja tarinansa.",
+    "description": "Tutustu neljään kokoelmaan, joista jokaisella on oma luonteensa ja tarinansa",
     "explore": "Tutustu kokoelmaan →",
     "all": "Kaikki teokset",
     "empty": "Tässä kokoelmassa ei ole vielä maalauksia.",
@@ -58,7 +58,7 @@
     "followMe": "Seuraa"
   },
   "footer": {
-    "tagline": "Alkuperäisiä maalauksia, ilolla luotuja.",
+    "tagline": "Alkuperäisiä maalauksia, ilolla luotuja",
     "rights": "Kaikki taideteokset, valokuvat ja visuaaliset materiaalit ovat tekijänoikeudella suojattuja. Niiden jäljentäminen, levittäminen tai kaupallinen käyttö ilman etukäteen annettua kirjallista lupaa on kielletty.",
     "author": "Suunnittelu ja toteutus: SofMik"
   },
@@ -78,7 +78,6 @@
   "buy": "Tiedustele teoksen ostamista",
   "contact": "Kysy tästä teoksesta",
   "currency": "€",
-  "canvasSize": "Koko",
   "emailSubject": "Tiedustelu maalauksesta",
   "emailBody": "Hei,\n\nOlen kiinnostunut seuraavasta maalauksesta:\n\nTeoksen nimi: {title}\nTeoksen tunnus: {id}\n\nVoisitteko antaa lisätietoja teoksesta?\n\nYstävällisin terveisin",
   "next": "Seuraava →",

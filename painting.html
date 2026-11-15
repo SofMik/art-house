@@ -20,7 +20,7 @@
 
   <main class="painting-page">
     <div class="painting-page-header">
-       <a class="text-link painting-page-back" id="home-back" href="index.html" data-i18n="nav.home">Home</a>
+      <a class="text-link painting-page-back" id="home-back" href="index.html" data-i18n="nav.home">Home</a>
       <a class="text-link painting-page-back" id="painting-back" href="index.html" data-i18n="gallery.back">
         Back to the collection
       </a>
@@ -37,7 +37,7 @@
         </a>
       </nav>
     </div>
-    <p id="painting-status" class="painting-page-status" role="status" aria-live="polite">
+    <p id="painting-status" class="painting-page-status" role="status" aria-live="polite" hidden>
       Loading painting...
     </p>
 
@@ -51,8 +51,8 @@
 
 
         <div id="painting-description" class="painting-page-description" hidden></div>
-  <div class="painting-page-meta">
-        
+        <div class="painting-page-meta">
+          <p id="painting-year" hidden></p>
           <p id="painting-technique" hidden></p>
           <p id="painting-size" hidden></p>
         </div>
