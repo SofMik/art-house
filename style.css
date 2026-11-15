@@ -1096,46 +1096,69 @@ body:has(.painting-dialog[open]) {
 
   /* ABOUT — MOBILE */
 
-  .about {
-    padding-block: 50px 55px;
-  }
+  
+/* ABOUT — MOBILE */
 
-  .about-heading {
-    margin-bottom: 30px;
-  }
+.about {
+  padding-block: 50px 55px;
+}
 
-  .about-heading h2 {
-    font-size: clamp(32px, 7vw, 42px);
-  }
+/* CHANGED: оба заголовка по центру */
+.about-heading {
+  margin-bottom: 30px;
+  text-align: center;
+}
 
-  .about-layout {
-    grid-template-columns: 1fr;
-    gap: 28px;
-  }
+.about-heading .eyebrow {
+  text-align: center;
+}
 
-  .about-image {
-    width: 100%;
-    max-width: 480px;
-    margin-inline: auto;
-  }
+.about-heading h2 {
+  text-align: center;
+  font-size: clamp(32px, 7vw, 42px);
+}
 
-  .about-image img {
-    width: 100%;
-    height: auto;
-    max-height: 560px;
-    aspect-ratio: 4 / 5;
-    object-fit: cover;
-  }
+/* Фото сверху, текст снизу */
+.about-layout {
+  grid-template-columns: 1fr;
+  gap: 28px;
+}
 
-  .about-content {
-    max-width: 100%;
-    padding: 0;
-  }
+.about-image {
+  width: 100%;
+  max-width: 480px;
+  margin-inline: auto;
+}
 
-  .about-content > p {
-    font-size: 14px;
-    line-height: 1.9;
-  }
+.about-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 560px;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+}
+
+/* CHANGED: основной текст слева */
+.about-content {
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+  margin-inline: auto;
+  text-align: left;
+}
+
+.about-content > p {
+  font-size: 14px;
+  line-height: 1.9;
+  text-align: left;
+}
+
+.about-content .text-link {
+  display: inline-block;
+  text-align: left;
+}
+
 
   /* Contact */
 
