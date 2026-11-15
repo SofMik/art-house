@@ -927,7 +927,7 @@ body:has(.painting-dialog[open]) {
   }
 
   section[id] {
-    scroll-margin-top: 78px;
+    scroll-margin-top: 0px;
   }
 
   .header-inner {
