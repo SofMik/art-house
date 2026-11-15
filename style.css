@@ -549,13 +549,31 @@ h3 {
 /* 9. ABOUT THE ARTIST */
 
 .about {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  gap: clamp(30px, 9vw, 100px);
-  padding-block: 50px 50px;
+  display: block;
+  padding-block: 65px 70px;
   border-top: 1px solid var(--color-border);
   margin: 20px auto;
+}
+
+.about-heading {
+  max-width: 850px;
+  margin: 0 auto 50px;
+  text-align: center;
+}
+
+.about-heading .eyebrow {
+  margin-bottom: 17px;
+}
+
+.about-heading h2 {
+  margin-bottom: 0;
+}
+
+.about-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+  align-items: start;
+  gap: clamp(35px, 6vw, 80px);
 }
 
 .about-image {
@@ -564,25 +582,19 @@ h3 {
 }
 
 .about-image img {
+  display: block;
   width: 100%;
-  height: clamp(400px, 48vw, 500px);
+  height: clamp(400px, 48vw, 560px);
   object-fit: cover;
+  object-position: center;
 }
 
 .about-content {
-  max-width: 620px;
-  padding-block: 25px;
+  max-width: 680px;
+  padding-block: 0;
 }
 
-.about-content .eyebrow {
-  margin-bottom: 24px;
-}
-
-.about-content h2 {
-  margin-bottom: 26px;
-}
-
-.about-content > p:not(.eyebrow) {
+.about-content > p {
   margin-bottom: 20px;
   color: var(--color-muted);
   font-size: 14px;
@@ -592,6 +604,7 @@ h3 {
 .about-content .text-link {
   margin-top: 8px;
 }
+
 
 /* 10. CONTACT */
 
@@ -1084,53 +1097,44 @@ body:has(.painting-dialog[open]) {
   /* ABOUT — MOBILE */
 
   .about {
-    padding-block: 75px 85px;
+    padding-block: 50px 55px;
+  }
+
+  .about-heading {
+    margin-bottom: 30px;
+  }
+
+  .about-heading h2 {
+    font-size: clamp(32px, 7vw, 42px);
+  }
+
+  .about-layout {
     grid-template-columns: 1fr;
-    gap: 35px;
-    justify-items: center;
-    margin-inline: auto;
+    gap: 28px;
   }
 
   .about-image {
     width: 100%;
-    max-width: 440px;
+    max-width: 480px;
     margin-inline: auto;
   }
 
   .about-image img {
-    display: block;
     width: 100%;
     height: auto;
     max-height: 560px;
     aspect-ratio: 4 / 5;
     object-fit: cover;
-    object-position: center;
   }
 
   .about-content {
-    width: 100%;
-    max-width: 560px;
-    padding: 10px;
-    margin-inline: auto;
-    text-align: center;
+    max-width: 100%;
+    padding: 0;
   }
 
-  .about-content .eyebrow {
-    margin-bottom: 20px;
-  }
-
-  .about-content h2 {
-    margin-bottom: 24px;
-  }
-
-  .about-content > p:not(.eyebrow) {
-    margin-bottom: 20px;
-    text-align: center;
-  }
-
-  .about-content .text-link {
-    display: inline-block;
-    margin-top: 8px;
+  .about-content > p {
+    font-size: 14px;
+    line-height: 1.9;
   }
 
   /* Contact */
