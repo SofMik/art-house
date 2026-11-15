@@ -1,8 +1,8 @@
 
 {
   "meta": {
-    "title": "Elena ArtHouse — Alkuperäisiä maalauksia",
-    "description": "Tutustu Elenan alkuperäisiin maalauksiin. Maisemia, muotokuvia, asetelmia ja tekstuurimaalausta."
+    "title": "Art by Lef Studio — Alkuperäisiä maalauksia",
+    "description": "Tutustu alkuperäisiin maalauksiin. Maisemia, muotokuvia, asetelmia ja tekstuurimaalausta."
   },
   "nav": {
     "home": "Etusivu",
@@ -13,17 +13,18 @@
     "closeMenu": "Sulje valikko"
   },
   "hero": {
-    "eyebrow": "ALKUPERÄISIÄ TEOKSIA · SYDÄMELLÄ LUOTUJA",
-    "title": "Taide puhuttelee sielua.",
-    "description": "Tutustu alkuperäisiin maalauksiin, jotka saavat inspiraationsa luonnosta, tunteista ja arjen kauneudesta.",
+    "eyebrow": "ALKUPERÄISIÄ TEOKSIA · ILOLLA LUOTUJA",
+    "title": "Maalaaminen tapana puhua omaa kieltä",
+    "description-first": "Tutustu alkuperäisiin teoksiin, jotka ovat saaneet inspiraationsa maailman kauneudesta, ihmisistä, valokuvista ja muistoista.",
+    "description-second": "Jokaisen maalauksen takana on pohdintaa ja oman ilmaisun etsintää.",
     "button": "Tutustu kokoelmaan",
     "note": "Alkuperäisiä maalauksia · Ainutlaatuisia teoksia",
     "imageCaption": "Pieni värien maailma",
-    "imageAlt": "Elenan esillä oleva alkuperäinen maalaus"
+    "imageAlt": "Esillä oleva alkuperäinen maalaus"
   },
   "gallery": {
     "eyebrow": "TUTUSTU KOKOELMAAN",
-    "title": "Taiteen monet muodot",
+    "title": "Ilmaisuja kankaalla",
     "description": "Tutustu neljään kokoelmaan, joista jokaisella on oma luonteensa ja tarinansa.",
     "explore": "Tutustu kokoelmaan →",
     "all": "Kaikki teokset",
@@ -38,15 +39,18 @@
   },
   "about": {
     "eyebrow": "TAITEILIJA TEOSTEN TAKANA",
-    "title": "Jokainen maalaus alkaa tunteesta.",
-    "text": "Olen Elena, taiteilija, joka saa inspiraatiota luonnon väreistä, arjen tunteista ja epätäydellisten hetkien kauneudesta.",
-    "textExtra": "Eri tyylien ja tekstuurien avulla luon alkuperäisiä teoksia, jotka tuovat tilaan lämpöä, luonnetta ja yksilöllisyyttä.",
+    "title": "Jokainen teos alkaa ihailusta",
+    "text": "Olen maalannut aina, tosin matkan varrella on ollut muutamia taukoja. Kaikki muuttui todella vasta muutaman ihmeellisen, lähes kohtalokkaan kohtaamisen jälkeen täysin tuntemattomien ihmisten kanssa. Heidän ohimennen lausumansa sanat ja huomionsa työnsivät minua eteenpäin mitä käsittämättömimmällä tavalla, mistä olen äärettömän kiitollinen. En tuntenut näitä ihmisiä ennen noita kohtaamisia enkä ole tavannut heitä sen jälkeen, mutta juuri heistä tuli se sysäys, jonka ansiosta aloin ottaa maalaustunteja ja siirryin taiteessani täysin uuteen vaiheeseen.",
+    "textExtra-first": "Nykyään asun ja työskentelen Espanjassa. Paikallinen etelän tunnelma – runsas auringonpaiste, valon leikki ja arkkitehtuuri – on muodostunut minulle ehtymättömäksi inspiraation lähteeksi ja vaikuttaa suoraan väripalettiini.",
+    "textExtra-second": "Teoksissani korostuvat erityisesti värien kirkkaus, pohdiskelu ja oman ilmaisun etsintä. Lähimpänä sydäntäni ovat öljyvärit ja kangas, kokeilut tekstuurimaalauksen parissa sekä ihailu impressionismia ja ekspressionismia kohtaan. Suurimman ilon tuo kuitenkin itse prosessi – oman ainutlaatuisen polun löytäminen ja uusien totuuksien jatkuva oivaltaminen maalaustaiteessa.",
+    "textExtra-third": "Kipinän teoksen syntymiseen antaa usein vilpitön ihailu: äkillinen valonpilkahdus tai syvä varjo, kodikkuutta luovien arkisten esineiden hiljainen kauneus tai satunnainen valokuva. Päähenkilöinäni ovat usein asetelmien yksinkertaiset, tutut esineet tai ihmiset – erityisesti vanhukset ja lapset, joissa on niin paljon elämää, viisautta ja aitoutta.",
+    "textExtra-fourth": "Eräänä päivänä annoin itselleni lupauksen asettua maalaustelineen ääreen vain hyvällä tuulella ja henkisessä nosteessa. Olen huomannut selvän lainalaisuuden: taiteilijan ajatukset ja tunteet lataavat kankaaseen väistämättä omaa energiaansa ja heijastuvat lopputulokseen. Siksi toivon vilpittömästi, että maalaukseni tuovat tähän maailmaan valoa, iloa ja positiivista energiaa.",   
     "link": "Tutustu taiteeseeni →",
-    "imageAlt": "Elena, taiteilija"
+    "imageAlt": "Taiteilija"
   },
   "contact": {
     "eyebrow": "OTA YHTEYTTÄ",
-    "title": "Ehkä jokin näistä maalauksista kuuluu juuri sinulle.",
+    "title": "Ehkä jokin näistä maalauksista kuuluu juuri sinulle",
     "description": "Kiinnostuitko alkuperäisestä taideteoksesta? Ota yhteyttä ja kysy saatavuudesta, lisätiedoista tai ostamisesta.",
     "button": "Lähetä sähköposti",
      "mailcontact": "Teoksia koskevissa ostotiedusteluissa voit ottaa yhteyttä sähköpostitse: artbylef@gmail.com",
@@ -54,9 +58,9 @@
     "followMe": "Seuraa"
   },
   "footer": {
-    "tagline": "Sydämellä luotua alkuperäistä taidetta.",
+    "tagline": "Alkuperäisiä maalauksia, ilolla luotuja.",
     "rights": "Kaikki taideteokset, valokuvat ja visuaaliset materiaalit ovat tekijänoikeudella suojattuja. Niiden jäljentäminen, levittäminen tai kaupallinen käyttö ilman etukäteen annettua kirjallista lupaa on kielletty.",
-    "author": "Verkkosivut: SofMik"
+    "author": "Suunnittelu ja toteutus: SofMik"
   },
   
 "artwork": {

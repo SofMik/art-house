@@ -1,8 +1,8 @@
 
 {
   "meta": {
-    "title": "Elena ArtHouse — Pinturas originales",
-    "description": "Descubre las pinturas originales de Elena. Paisajes, retratos, bodegones y pintura texturizada."
+    "title": "Art by Lef Studio — Pinturas originales",
+    "description": "Descubre las pinturas originales. Paisajes, retratos, bodegones y pintura texturizada."
   },
   "nav": {
     "home": "Inicio",
@@ -13,17 +13,18 @@
     "closeMenu": "Cerrar navegación"
   },
   "hero": {
-    "eyebrow": "OBRAS ORIGINALES · CREADAS CON ALMA",
-    "title": "Arte que habla al alma.",
-    "description": "Descubre pinturas originales inspiradas en la naturaleza, las emociones y la belleza de la vida cotidiana.",
+    "eyebrow": "OBRAS ORIGINALES · CREADAS CON ALEGRIA",
+    "title": "La pintura como forma de hablar un lenguaje propio",
+    "description-first": "Descubre obras originales inspiradas en la belleza del mundo, las personas, las fotografías y los recuerdos.",
+    "description-second": "Detrás de cada cuadro hay reflexión y una búsqueda de expresión propia.",
     "button": "Explorar la colección",
     "note": "Pinturas originales · Obras únicas",
     "imageCaption": "Un pequeño mundo de color",
-    "imageAlt": "Pintura original destacada de Elena"
+    "imageAlt": "Pintura original destacada"
   },
   "gallery": {
     "eyebrow": "DESCUBRE LA COLECCIÓN",
-    "title": "El arte en diferentes formas",
+    "title": "Expresiones sobre lienzo",
     "description": "Explora cuatro colecciones, cada una con su propia personalidad e historia.",
     "explore": "Explorar colección →",
     "all": "Todas las obras",
@@ -38,15 +39,18 @@
   },
   "about": {
     "eyebrow": "LA ARTISTA DETRÁS DEL LIENZO",
-    "title": "Cada pintura comienza con una emoción.",
-    "text": "Soy Elena, una artista inspirada por los colores de la naturaleza, las emociones de la vida cotidiana y la belleza de los momentos imperfectos.",
-    "textExtra": "A través de diferentes estilos y texturas, creo obras originales que aportan calidez, carácter e individualidad a cada espacio.",
+    "title": "Cada obra comienza con admiración",
+    "text": "Siempre he pintado, aunque con algunas pausas en el camino. Todo cambió de verdad tras varios encuentros maravillosos, casi predestinados, con personas completamente desconocidas. Sus palabras y comentarios casuales me impulsaron hacia adelante de la manera más incomprensible, algo por lo que estoy infinitamente agradecida. No conocía a estas personas ni antes ni después de aquellos encuentros, pero fueron precisamente el impulso que me llevó a tomar clases y a alcanzar una etapa completamente nueva en mi obra.",
+    "textExtra-first": "Hoy vivo y creo en España. El carácter sureño de esta tierra —el sol generoso, el juego de luces y su arquitectura— se ha convertido en una fuente inagotable de inspiración e influye directamente en mi paleta.",
+    "textExtra-second": "En mis obras pongo un énfasis especial en la intensidad de los colores, la reflexión y la búsqueda de una expresión propia. Lo que siento más cercano es el óleo sobre lienzo, la experimentación con la pintura texturizada, así como mi admiración por el impresionismo y el expresionismo. Sin embargo, el mayor placer me lo proporciona el proceso en sí: buscar mi propio camino y descubrir constantemente nuevas verdades en la pintura.",
+    "textExtra-third": "El detonante para crear una obra suele ser una admiración sincera: un destello repentino de luz o una sombra profunda, la belleza silenciosa de los objetos cotidianos que crean calidez de hogar, o una fotografía casual. Mis protagonistas suelen ser objetos sencillos y familiares en bodegones, o personas —especialmente ancianos y niños, en quienes habita tanta vida, sabiduría y sinceridad.",
+    "textExtra-fourth": "Un día me hice la promesa de sentarme frente al caballete únicamente de buen humor y con el ánimo elevado. He notado una constante: los pensamientos y sentimientos del artista cargan inevitablemente el lienzo con su energía y se reflejan en el resultado final. Por ello, espero sinceramente que mis cuadros aporten luz, alegría y energía positiva a este mundo.",  
     "link": "Descubre mi arte →",
-    "imageAlt": "Elena, la artista"
+    "imageAlt": "La artista"
   },
   "contact": {
     "eyebrow": "SIGAMOS EN CONTACTO",
-    "title": "Quizás una de estas pinturas esté hecha para ti.",
+    "title": "Quizás una de estas pinturas esté hecha para ti",
     "description": "¿Te interesa una obra original? Escríbeme para consultar su disponibilidad, obtener más información o preguntar cómo comprarla.",
     "button": "Escríbeme un correo",
     "mailcontact": "Para consultas sobre la compra de obras de arte, puedes contactarme por correo electrónico: artbylef@gmail.com.",
@@ -54,9 +58,9 @@
     "followMe": "Sígueme"
   },
   "footer": {
-    "tagline": "Arte original creado con alma.",
+    "tagline": "Pinturas originales, creadas con alegría.",
     "rights": "Todas las obras de arte, fotografías y materiales visuales están protegidos por derechos de autor. Queda prohibida su reproducción, distribución o utilización con fines comerciales sin autorización previa por escrito.",
-    "author": "Web creada por SofMik"
+    "author": "Diseñado y desarrollado por SofMik"
   },
   
 "artwork": {

@@ -123,7 +123,7 @@ h3 {
 }
 
 h1 {
-  font-size: clamp(48px, 6.3vw, 68px);
+  font-size: clamp(48px, 6.3vw, 65px);
   line-height: 1.08;
 }
 
@@ -153,10 +153,22 @@ h3 {
   position: sticky;
   top: 0;
   z-index: 100;
+  isolation: isolate;
   border-bottom: 1px solid rgb(229 223 213 / 85%);
+  background: transparent;
+}
+
+.site-header::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+
   background: rgb(248 246 241 / 65%);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
+
+  pointer-events: none;
 }
 
 .header-inner {
@@ -357,7 +369,7 @@ h3 {
   padding-block: clamp(30px, 5vw, 60px);
 
   display: grid;
-  grid-template-columns: 1.15fr 0.85fr;
+  grid-template-columns: 1.10fr 0.90fr;
   align-items: center;
   gap: clamp(35px, 3vw, 75px);
 }
@@ -385,7 +397,7 @@ h3 {
 .hero-note {
   margin: 23px 0 0;
   color: var(--color-muted);
-  font-size: 12px;
+  font-size: 13px;
   letter-spacing: 0.045em;
 }
 
@@ -398,7 +410,7 @@ h3 {
 
 .hero-art img {
   display: block;
-  width: 75%;
+  width: 85%;
   height: auto;
   aspect-ratio: 2632 / 3700;
   object-fit: contain;
@@ -445,7 +457,7 @@ h3 {
 .section-heading > p:last-child {
   margin-bottom: 0;
   color: var(--color-muted);
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .section-heading p.bymail {
@@ -457,6 +469,10 @@ h3 {
 
 .section-title {
   margin-bottom: 15px;
+}
+
+.gallery-title {
+   color: var(--color-accent-dark);
 }
 
 /* 8. FOUR  CATEGORY CARDS */
@@ -518,7 +534,7 @@ h3 {
   padding-bottom: 3px;
   border-bottom: 1px solid #c7b49d;
   color: var(--color-text);
-  font-size: 12px;
+  font-size: 13px;
   letter-spacing: 0.025em;
   transition:
     color var(--transition),
@@ -534,12 +550,12 @@ h3 {
 
 .about {
   display: grid;
-  grid-template-columns: 1fr 0.9fr;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
-  gap: clamp(50px, 9vw, 125px);
-  padding-block: 100px 60px;
+  gap: clamp(30px, 9vw, 100px);
+  padding-block: 50px 50px;
   border-top: 1px solid var(--color-border);
-  margin: 50px auto;
+  margin: 20px auto;
 }
 
 .about-image {
@@ -554,7 +570,7 @@ h3 {
 }
 
 .about-content {
-  max-width: 470px;
+  max-width: 620px;
   padding-block: 25px;
 }
 
@@ -738,7 +754,7 @@ h3 {
 
 .footer-nav a {
   color: var(--color-muted);
-  font-size: 12px;
+  font-size: 13px;
   transition: color var(--transition);
 }
 
@@ -749,16 +765,21 @@ h3 {
 /* ROW 3: COPYRIGHT */
 
 .footer-bottom {
-  min-height: 62px;
+  min-height: 70px;
+  margin: 5px 0;
   justify-content: space-between;
   color: var(--color-muted);
-  font-size: 11px;
+  font-size: 12px;
   gap: 20px;
 }
 
 .footer-bottom p {
   margin: 0;
   text-align: center;
+}
+
+.footer-rights {
+  max-width: 600px;
 }
 
 .footer-author {
@@ -929,21 +950,21 @@ body:has(.painting-dialog[open]) {
     position: absolute;
     top: calc(100% - 10px);
     right: 10px;
-    min-width: 160px;
+    min-width: 170px;
 
     display: none;
     align-items: stretch;
 
-    gap: 5px;
-    padding: 10px var(--gutter) 18px;
-    border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.15);
-    border-bottom: 1px solid var(--color-border);
-    background: rgb(248 246 241 / 65%);
-    backdrop-filter: blur(14px);
-    -webkit-backdrop-filter: blur(14px);
+    gap: 3px;
+    padding: 10px var(--gutter) 10px;
+     border-radius: 10px;
+  border: 1px solid rgb(229 223 213 / 85%);
 
-    box-shadow: 0 3px 18px rgba(0, 0, 0, 0.35);
+  background: rgb(248 246 241 / 65%);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+
+  box-shadow: 0 3px 18px rgb(0 0 0 / 15%);
   }
 
   .main-nav.is-open {

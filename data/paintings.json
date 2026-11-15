@@ -3,7 +3,7 @@
     {
     "id": "still-life-001",
     "category": ["still-life", "textured-painting"],
-    "image": "images/paintings/still-life/old-lamp.jpg",
+    "image": "images/paintings/still-life/old-lamp.webp",
     "width": 2048,
     "height": 1727,
     "title": {
@@ -32,7 +32,7 @@
     {
     "id": "still-life-002",
     "category": "still-life",
-    "image": "images/paintings/still-life/the-azure-bowl-and-persimmons.jpg",
+    "image": "images/paintings/still-life/the-azure-bowl-and-persimmons.webp",
     "width": 2767,
     "height": 3542,
     "title": {
@@ -61,7 +61,7 @@
   {
     "id": "still-life-003",
     "category": "still-life",
-    "image": "images/paintings/still-life/pomegranates-and-turquoise.jpg",
+    "image": "images/paintings/still-life/pomegranates-and-turquoise.webp",
     "width": 2931,
     "height": 3707,
     "title": {
@@ -90,18 +90,18 @@
   {
     "id": "still-life-004",
     "category": "still-life",
-    "image": "images/paintings/still-life/in-the-summer-garden.jpg",
+    "image": "images/paintings/still-life/in-the-summer-garden.webp",
     "width": 1664,
     "height": 2035,
     "title": {
-      "en": "In the summer garden",
-      "fi": "Kesäpuutarhassa",
-      "es": "En el jardín de verano"
+      "en": "In the Summer Garden",
+      "fi": "Kesäpuistossa",
+      "es": "En el Jardín de Verano"
     },
     "description": {
-      "en": "",
-      "fi": "",
-      "es": ""
+      "en": "Claude Monet said that what matters most in a painting is not the subject but the light and air surrounding it: “The main thing for me is light. I want to catch it and hold it.” Inspired by this idea, I moved away from literal depiction and let form take a back seat. In this work, light comes first, not detail.",
+      "fi": "Claude Monet sanoi, että maalauksessa tärkeintä ei ole aihe vaan sitä ympäröivä valo ja ilma: “Minulle tärkeintä on valo. Haluan vangita sen ja pitää sen.” Tämän ajatuksen inspiroimana irtauduin kirjaimellisesta kuvaamisesta ja annoin muodon väistyä taka-alalle. Tässä työssä etusijalla on valo, ei yksityiskohdat.",
+      "es": "Claude Monet decía que lo principal en un cuadro no es el motivo, sino la luz y el aire que lo rodean: «Lo principal para mí es la luz. Quiero atraparla y retenerla». Inspirado por esta idea, me alejé de la representación literal y dejé que la forma pasara a un segundo plano. En esta obra, lo primero es la luz, no los detalles."
     },
     "technique": {
       "en": "Oil on canvas",
@@ -109,8 +109,8 @@
       "es": "Óleo sobre lienzo"
     },
     "canvasSize": {
-      "width": 200,
-      "height": 100,
+      "width": 46,
+      "height": 55,
       "unit": "cm"
     },
     "price": "250",
@@ -119,7 +119,7 @@
   {
     "id": "textured-painting-001",
     "category": "textured-painting",
-    "image": "images/paintings/textured-painting/the-wild-grape.jpg",
+    "image": "images/paintings/textured-painting/the-wild-grape.webp",
     "width": 2632,
     "height": 3700,
     "title": {
@@ -146,9 +146,38 @@
     "available": true
   },
   {
+    "id": "textured-painting-002",
+    "category": ["textured-painting", "still-life"],
+    "image": "images/paintings/textured-painting/the-poetry-of-shadows.webp",
+    "width": 519,
+    "height": 633,
+    "title": {
+      "en": "The Poetry of Shadows",
+      "fi": "Varjojen runoutta",
+      "es": "La poesía de las sombras"
+    },
+    "description": {
+      "en": "At first glance, a pair of pears might not seem like the most obvious embodiment of cosiness: neither a soft blanket nor a fire in the hearth. Yet all the magic lies in the mood. Within these long, cool shadows hides, for me, an unhurried sensation of midday warmth, peace, and time standing still—like a quiet sanctuary in the heat of the day. There is so much poetry and gentle intimacy in summer shadows that it is precisely this interplay of light and warm air that I wish to explore ever more deeply.",
+      "fi": "Ensisilmäyksellä päärynäpari ei ehkä ole ilmeisin kodikkuuden ilmentymä: ei vilttiä eikä takkatulta. Mutta koko taika on tunnelmassa. Näihin pitkiin, viileisiin varjoihin on minulle kätkeytynyt keskipäivän lämmön, rauhan ja pysähtyneen ajan verkkainen tuntu – kuin hiljainen turvapaikka kuuman päivän keskellä. Kesän varjoissa on niin paljon runollisuutta ja pehmeää läheisyyttä, että juuri tätä valon ja lämpimän ilman leikkiä haluan tutkia yhä syvemmin.",
+      "es": "A primera vista, un par de peras no parece la encarnación más evidente de la calidez de hogar: no es una manta ni el fuego de la chimenea. Pero toda la magia está en la atmósfera. En estas sombras largas y frescas se esconde, para mí, una sensación pausada de calor de mediodía, paz y tiempo detenido, como un refugio silencioso en pleno calor del día. Hay tanta poesía y suave intimidad en las sombras del verano que es precisamente este juego de luz y aire cálido lo que deseo seguir explorando cada vez más profundamente."
+    },
+    "technique": {
+      "en": "Oil on canvas",
+      "fi": "Öljy kankaalle",
+      "es": "Óleo sobre lienzo"
+    },
+    "canvasSize": {
+      "width": 38,
+      "height": 46,
+      "unit": "cm"
+    },
+    "price": "150",
+    "available": true
+  },
+  {
     "id": "portraits-001",
     "category": ["portraits", "textured-painting"],
-    "image": "images/paintings/portraits/memories-of-summer.jpg",
+    "image": "images/paintings/portraits/memories-of-summer.webp",
     "width": 3008,
     "height": 3687,
     "title": {
@@ -177,7 +206,7 @@
     {
     "id": "portraits-002",
     "category": "portraits",
-    "image": "images/paintings/portraits/little-harvest.jpg",
+    "image": "images/paintings/portraits/little-harvest.webp",
     "width": 2897,
     "height": 3719,
     "title": {
@@ -206,7 +235,7 @@
     {
     "id": "portraits-003",
     "category": "portraits",
-    "image": "images/paintings/portraits/the-silver-of-years.jpg",
+    "image": "images/paintings/portraits/the-silver-of-years.webp",
     "width": 2897,
     "height": 3719,
     "title": {

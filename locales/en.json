@@ -1,8 +1,8 @@
 
 {
   "meta": {
-    "title": "Elena ArtHouse — Original Paintings",
-    "description": "Discover original paintings by Elena. Explore landscapes, portraits, still life and textured painting."
+    "title": "Art by Lef Studio — Original Paintings",
+    "description": "Discover original paintings. Explore landscapes, portraits, still life and textured painting."
   },
   "nav": {
     "home": "Home",
@@ -13,17 +13,18 @@
     "closeMenu": "Close navigation"
   },
   "hero": {
-    "eyebrow": "ORIGINAL ARTWORKS · MADE WITH SOUL",
-    "title": "Art that speaks to the soul.",
-    "description": "Discover original paintings inspired by nature, emotions and the beauty of everyday life.",
+    "eyebrow": "ORIGINAL ARTWORKS · MADE WITH JOY",
+    "title": "Painting as a Way of Speaking an Authentic Language",
+    "description-first": "Discover original works inspired by the beauty of the world, people, photographs and memories.",
+    "description-second": "Behind every painting are reflection and a search for my own form of expression.",
     "button": "Explore collection",
     "note": "Original paintings · Unique pieces",
     "imageCaption": "A little world of colour",
-    "imageAlt": "Featured original painting by Elena"
+    "imageAlt": "Featured original painting"
   },
   "gallery": {
     "eyebrow": "DISCOVER THE COLLECTION",
-    "title": "Art in different forms",
+    "title": " Expressions on Canvas",
     "description": "Explore four collections, each with its own character and story.",
     "explore": "Explore collection →",
     "all": "All artworks",
@@ -38,15 +39,18 @@
   },
   "about": {
     "eyebrow": "THE ARTIST BEHIND THE CANVAS",
-    "title": "Every painting begins with a feeling.",
-    "text": "I am Elena, an artist inspired by the colours of nature, the emotions of everyday life and the beauty of imperfect moments.",
-    "textExtra": "Through different styles and textures, I create original works that bring warmth, character and individuality into a space.",
+    "title": "Every Painting Begins with Delight",
+    "text": "I have always painted, albeit with a few pauses along the way. Everything truly changed after several remarkable, almost fateful encounters with complete strangers. Their casual remarks and words pushed me forward in the most incomprehensible way, for which I am endlessly grateful. I did not know these people before those meetings, nor have I seen them since, yet they became the very impulse that led me to take lessons and reach a completely new chapter in my art.",
+    "textExtra-first": "Today, I live and create in Spain. The local southern character—generous sunshine, the play of light, and the architecture—has become an inexhaustible source of inspiration and directly influences my palette",
+    "textExtra-second": "In my works, I place particular emphasis on vibrant colours, reflection, and the search for personal expression. Oil on canvas, experiments with textured painting, and a deep admiration for Impressionism and Expressionism are what feel closest to my heart. Yet the greatest joy comes from the process itself—finding my own unique path and constantly discovering new truths in painting.",
+    "textExtra-third": "The spark for creating a piece is often genuine delight: a sudden glint of light or a deep shadow, the quiet beauty of everyday objects that create a sense of cosiness, or a candid photograph. My main subjects are frequently simple, familiar items in still lifes, or people—especially the elderly and children, who hold so much life, wisdom, and sincerity.",
+    "textExtra-fourth": "One day, I made a promise to myself to sit down at the easel only when in a good mood and feeling emotionally uplifted. I noticed a clear pattern: an artist’s thoughts and feelings inevitably charge the canvas with their energy and are reflected in the final result. Therefore, I sincerely hope that my paintings bring light, joy, and positive energy into this world.",   
     "link": "Get to know my art →",
-    "imageAlt": "Elena, the artist"
+    "imageAlt": "The artist"
   },
   "contact": {
     "eyebrow": "LET'S CONNECT",
-    "title": "Perhaps one of these paintings belongs with you.",
+    "title": "Perhaps one of these paintings belongs with you",
     "description": "Interested in an original artwork? Get in touch to ask about availability, details or purchasing.",
     "button": "Contact me by email",
     "mailcontact": "For purchase inquiries, please contact me by email: artbylef@gmail.com",
@@ -54,9 +58,9 @@
     "followMe": "Follow me"
   },
   "footer": {
-    "tagline": "Original art, created with soul.",
+    "tagline": "Original paintings, created with joy.",
     "rights": "All artworks, photographs and visual materials are protected by copyright. Reproduction, distribution or commercial use without prior written permission is prohibited.",
-    "author": "Website by SofMik"
+    "author": "Designed & Developed by SofMik"
   },
   
 "artwork": {
