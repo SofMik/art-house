@@ -1074,7 +1074,7 @@ body:has(.painting-dialog[open]) {
   /* Gallery */
 
   .gallery-preview {
-    padding-block: 75px 85px;
+    padding-block: 40px 40px;
   }
 
   .section-heading {
