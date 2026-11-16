@@ -122,12 +122,12 @@ h3 {
 }
 
 h1 {
-  font-size: clamp(48px, 6.3vw, 65px);
+  font-size: clamp(44px, 6.3vw, 52px);
   line-height: 1.08;
 }
 
 h2 {
-  font-size: clamp(36px, 4.3vw, 56px);
+  font-size: clamp(32px, 4.3vw, 44px);
   line-height: 1.17;
 }
 
@@ -1030,7 +1030,7 @@ body:has(.painting-dialog[open]) {
   }
 
   .hero h1 {
-    font-size: clamp(46px, 11vw, 68px);
+    font-size: clamp(46px, 11vw, 50px);
   }
 
   .hero-description {

@@ -1,5 +1,35 @@
 
 [
+     {
+    "id": "still-life-002",
+    "category": "still-life",
+    "image": "images/paintings/still-life/the-azure-bowl-and-persimmons.webp",
+    "width": 2767,
+    "height": 3542,
+    "title": {
+      "en": "The Azure Bowl and Persimmons",
+      "fi": "Sininen kulho ja persimonit",
+      "es": "Сuenco azul y los caquis"
+    },
+     "description": {
+      "en": "Commissioned art is a beautiful dance between pure excitement and a quiet challenge. Born from the joy of bringing something new into existence, this piece was painted in the same breath as my pomegranate artwork. It is a celebration of untamed enthusiasm for the creative process and the gentle competition with oneself to push boundaries.",
+      "fi": "Tilaustyön tekeminen on kaunista tanssia puhtaan innostuksen ja hiljaisen haasteen välillä. Tämä teos syntyi ilosta tuoda jotain uutta maailmaan, ja se on maalattu samassa hengenvedossa granaattiomenamaalaukseni kanssa. Se on luovan prosessin puhtaan innostuksen juhlaa sekä lempeää kilpailua itsensä kanssa omien rajojen rikkomiseksi.",
+      "es": "El arte por encargo es una hermosa danza entre la pura emoción y un desafío silencioso. Nacida de la alegría de dar vida a algo nuevo, esta pieza fue pintada con el mismo aliento que mi obra de las granadas. Es una celebración del entusiasmo puro por el proceso creativo y de la sutil competencia con uno mismo para desafiar los propios límites."
+    },
+    "technique": {
+      "en": "Oil on canvas",
+      "fi": "Öljy kankaalle",
+      "es": "Óleo sobre lienzo"
+    },
+    "canvasSize": {
+      "width": 40,
+      "height": 50,
+      "unit": "cm"
+    },
+    "year": "2026",
+    "price": null,
+    "available": false
+  },
     {
     "id": "still-life-001",
     "category": ["still-life", "textured-painting"],
@@ -30,36 +60,7 @@
     "price": "180",
     "available": true
   },
-    {
-    "id": "still-life-002",
-    "category": "still-life",
-    "image": "images/paintings/still-life/the-azure-bowl-and-persimmons.webp",
-    "width": 2767,
-    "height": 3542,
-    "title": {
-      "en": "The Azure Bowl and Persimmons",
-      "fi": "Sininen kulho ja persimonit",
-      "es": "Сuenco azul y los caquis"
-    },
-     "description": {
-      "en": "Commissioned art is a beautiful dance between pure excitement and a quiet challenge. Born from the joy of bringing something new into existence, this piece was painted in the same breath as my pomegranate artwork. It is a celebration of untamed enthusiasm for the creative process and the gentle competition with oneself to push boundaries.",
-      "fi": "Tilaustyön tekeminen on kaunista tanssia puhtaan innostuksen ja hiljaisen haasteen välillä. Tämä teos syntyi ilosta tuoda jotain uutta maailmaan, ja se on maalattu samassa hengenvedossa granaattiomenamaalaukseni kanssa. Se on luovan prosessin puhtaan innostuksen juhlaa sekä lempeää kilpailua itsensä kanssa omien rajojen rikkomiseksi.",
-      "es": "El arte por encargo es una hermosa danza entre la pura emoción y un desafío silencioso. Nacida de la alegría de dar vida a algo nuevo, esta pieza fue pintada con el mismo aliento que mi obra de las granadas. Es una celebración del entusiasmo puro por el proceso creativo y de la sutil competencia con uno mismo para desafiar los propios límites."
-    },
-    "technique": {
-      "en": "Oil on canvas",
-      "fi": "Öljy kankaalle",
-      "es": "Óleo sobre lienzo"
-    },
-    "canvasSize": {
-      "width": 40,
-      "height": 50,
-      "unit": "cm"
-    },
-    "year": "2026",
-    "price": null,
-    "available": false
-  },
+    
   {
     "id": "still-life-003",
     "category": "still-life",
