@@ -206,7 +206,7 @@
       "Ask about this painting",
     );
 
-    // Replace with Elena's real email address.
+  
     const recipient = "artbylef@gmail.com";
 
     const paintingTitle = getText(painting.title);
