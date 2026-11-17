@@ -123,7 +123,7 @@
   },
   {
     "id": "textured-painting-001",
-    "category": "textured-painting",
+    "category": ["landscapes", "textured-painting"],
     "image": "images/paintings/textured-painting/the-wild-grape.webp",
     "width": 2632,
     "height": 3700,
