@@ -383,6 +383,8 @@ align-items: start;
 
 .hero h1 {
   margin-bottom: 27px;
+  color: var(--color-accent-dark);
+   
 }
 
 .hero-description {
@@ -401,26 +403,45 @@ align-items: start;
 }
 
 /* HERO IMAGE */
+
 .hero-art {
   position: relative;
   min-width: 0;
   width: 100%;
+
 }
 
-.hero-art img {
+.hero-art-link {
+  position: relative;
   display: block;
-  width: 80%;
+  width: 100%;
+  max-width: 400px;
+  margin-left: auto;
+  margin-top: 30px;
+  overflow: hidden;
+  background: var(--color-bg);
+}
+
+.hero-art-link img {
+  display: block;
+  width: 100%;
   height: auto;
   aspect-ratio: 2632 / 3700;
-  object-fit: contain;
+  object-fit: cover;
   object-position: center;
-  margin-top: 30px;
+
+  transition:
+    transform 600ms cubic-bezier(0.2, 0.65, 0.3, 1),
+    filter 400ms ease;
+}
+
+.hero-art-link:hover img {
+  transform: scale(1.045);
 }
 
 .hero-art-caption {
-  width: 75%;
+  width: 100%;
   margin: 13px 0 0;
-
   color: var(--color-muted);
   font-family: var(--font-heading);
   font-size: 14px;
@@ -567,6 +588,7 @@ align-items: start;
 
 .about-heading h2 {
   margin-bottom: 0;
+  color: var(--color-accent-dark);
 }
 
 .about-layout {
@@ -623,6 +645,7 @@ align-items: start;
 .contact h2 {
   max-width: 750px;
   margin: 0 auto 23px;
+  color: var(--color-accent-dark);
 }
 
 .contact > p:not(.eyebrow) {
@@ -1030,7 +1053,7 @@ body:has(.painting-dialog[open]) {
   }
 
   .hero h1 {
-    font-size: clamp(46px, 11vw, 50px);
+    font-size: 30px;
   }
 
   .hero-description {
@@ -1053,28 +1076,42 @@ body:has(.painting-dialog[open]) {
     width: 100%;
   }
 
-  .hero-art img {
-    display: block;
-    width: 80%;
-    max-width: 420px;
-    height: auto;
-    aspect-ratio: 2632 / 3700;
-    object-fit: contain;
-    object-position: center;
-    margin-inline: auto;
-  }
+.hero-art-link {
+  display: block;
+  width: 100%;
+  max-width: none;
+  overflow: hidden;
+  margin: 0;
+}
+.hero-art-link img {
+  display: block;
+  width: 100%;
+  max-width: none;
+  height: auto;
+  aspect-ratio: 2632 / 3700;
+  object-fit: contain;
+  object-position: center;
+  margin: 0;
 
-  .hero-art-caption {
-    width: 75%;
-    max-width: 420px;
-    margin: 13px auto 0;
-    text-align: right;
-  }
+  transition:
+    transform 600ms cubic-bezier(0.2, 0.65, 0.3, 1),
+    filter 400ms ease;
+}
+.hero-art-caption {
+  width: 100%;
+  max-width: none;
+  margin: 13px auto 0;
+  text-align: right;
+}
 
   /* Gallery */
 
   .gallery-preview {
     padding-block: 35px 40px;
+  }
+
+  .gallery-title{
+    font-size: 30px;
   }
 
   .section-heading {
@@ -1112,7 +1149,7 @@ body:has(.painting-dialog[open]) {
 
 .about-heading h2 {
   text-align: center;
-  font-size: clamp(32px, 7vw, 42px);
+font-size: 30px;
 }
 
 .about-layout {
@@ -1162,7 +1199,7 @@ body:has(.painting-dialog[open]) {
   }
 
   .contact h2 {
-    font-size: clamp(34px, 8vw, 48px);
+    font-size: 30px;
   }
 
   /* Footer */
@@ -1236,7 +1273,7 @@ body:has(.painting-dialog[open]) {
   }
 
   .hero h1 {
-    font-size: 45px;
+    font-size: 30px;
   }
 
   .category-grid {

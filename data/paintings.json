@@ -323,8 +323,8 @@
       "es": "Óleo sobre lienzo"
     },
     "canvasSize": {
-      "width": 200,
-      "height": 100,
+      "width": 50,
+      "height": 50,
       "unit": "cm"
     },
     "year": "2024",
